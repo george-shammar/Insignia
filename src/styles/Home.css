@@ -1,0 +1,64 @@
+.enter {
+  position: absolute;
+  left: 1%;
+  top: 500px;
+}
+
+.title-one {
+  font-size: 50px;
+  width: 60%;
+  line-height: 1.2;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title-three {
+  font-size: 40px;
+  width: 60%;
+  line-height: 1.2;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title-two {
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+}
+
+.heading {
+  position: absolute;
+  top: 200px;
+  left: 1%;
+}  
+
+.front {
+  
+  background-image: url("../assets/bg2.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: absolute;
+  background-position-x: 100%;
+}
+
+.second {
+  background-image: url("../assets/bg.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: absolute;
+  background-position-x: 100%;
+}
+
+.white {
+  color: white;
+}
+
+.frame {
+  height: 520px;
+}
+
+.african {
+  height: 350px;
+}
+
+.animate__animated.animate__fadeIn {
+  --animate-duration: 5s;
+}

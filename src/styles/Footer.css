@@ -1,0 +1,37 @@
+.white {
+	color: white;
+}
+
+.grey {
+	color: rgb(180, 176, 176);
+}
+
+.footer-flex {
+	padding-top: 40px;
+}
+
+.main-footer {
+	background-color: rgb(29, 28, 28);
+}
+
+.footer-submain {
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+.font {
+	font-family: 'Roboto', sans-serif;
+}
+
+.width-30 {
+	width: 30%;
+}
+
+.blue {
+	color: rgb(13, 13, 233);
+}
+
+.last-footer {
+	margin: auto;
+  	width: 50%;
+}

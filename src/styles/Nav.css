@@ -1,0 +1,40 @@
+.azania{
+  font-size: 200%;
+  font-weight:900;
+  font-style: italic;
+  font-family: 'Merienda', cursive;
+}
+
+.font-meridian {
+  font-family: 'Merienda', cursive;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F14D5D;
+}
+
+.white {
+  color: white;
+}
+
+.pink {
+  color: #F14D5D;
+}
+
+.wallet {
+  background-color: #F14D5D;
+}
+
+.hr {
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+
+.logo {
+  width: 8%;
+}

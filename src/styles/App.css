@@ -1,0 +1,7 @@
+.app {
+  /* background-image: url("../assets/bg-shape.png"); */
+  height: 620px;
+  background-repeat: no-repeat;
+  background-position: absolute;
+  background-position-x: 40%;
+}

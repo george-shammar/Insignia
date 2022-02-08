@@ -6,7 +6,7 @@ const Copyright = () => {
         <div className="d-flex justify-content-between black px-5 copyright  pt-3">
             <div className="d-flex"> 
                 <h6 className="white font">Copyright &copy; 2021 - All Rights Reserved: </h6>
-                <p className="pink meridian-font px-2">Azania</p>
+                <p className="pink meridian-font px-2">Insignia</p>
             </div>
             <div>
                 <p className="meridian-font white"> Powered by ChainCript Inc.</p>

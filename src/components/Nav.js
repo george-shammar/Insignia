@@ -17,7 +17,7 @@ function Nav() {
           <p> <Link to="/MarketPLace" className="px-4 white">Market Place</Link></p>
           <p><Link to="/MyAssets" className="white">My Assets</Link></p>
           <p><Link to="/Dashboard" className="px-4 white">Dashboard</Link></p> */}
-          <p> <Link to="/Whitepaper" className="white">Whitepaper</Link></p>
+          <p><Link to="/Whitepaper" className="px-4 white">Whitepaper</Link></p>
         <p className="px-3 border-0 rounded-pill p-2 wallet white">Connect Wallet</p>
         </div>
       </div><hr className="hr"/>

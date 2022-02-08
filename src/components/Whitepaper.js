@@ -1,12 +1,14 @@
 import React from 'react';
+import Nav from "./Nav";
+import "../styles/Whitepaper.css"
 
 const Whitepaper = () => (
-  <div className="frame animate__animated animate__fadeIn second">
-      <div className="heading">
+  <div>
+      <div>
+      <Nav />
         <p>Whitepaper</p>
       </div>
-      {/* <p><Link to="/MarketPLace" className="px-3 border-0 rounded-pill p-2 wallet white enter">Explore the Market Place</Link></p> */}
-    
+     
   </div>
   
 );

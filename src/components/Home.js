@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import { Link } from 'react-router-dom';
-// import "../styles/Home.css"
-// import 'animate.css';
+import "../styles/Home.css"
+import 'animate.css';
 
 const FIRST_PAGE = '5_SECONDS';
 const SECOND_PAGE = '15_SECONDS';

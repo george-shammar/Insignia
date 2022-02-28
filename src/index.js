@@ -6,7 +6,6 @@ import "./styles/index.css"
 
 ReactDOM.render(
   <React.StrictMode>
-    
     <Routes />
   </React.StrictMode>,
   document.getElementById('root')

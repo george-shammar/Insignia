@@ -29,7 +29,7 @@ a:hover {
 }
 
 .logo {
-  width: auto;
+  width: 50%;
 }
 
 .top-nav {
@@ -39,4 +39,16 @@ a:hover {
   height: 100px;
   background-size: cover;
   background-position: center;
+}
+
+.flex1 {
+  width: 20%;
+}
+
+.flex2 {
+  width: 80%;
+}
+
+.flex3 {
+  width: 10%;
 }

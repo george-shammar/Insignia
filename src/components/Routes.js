@@ -4,6 +4,7 @@ import Whitepaper from './Whitepaper';
 import App from './App';
 import Marketplace from './Marketplace';
 import Home from './Home';
+import News from './News';
 
 
 const Routes = () => (
@@ -14,6 +15,7 @@ const Routes = () => (
         <Route exact path="/" component={App} />
         <Route exact path="/Whitepaper" component={Whitepaper} />
         <Route exact path="/MarketPLace" component={Marketplace} />
+        <Route exact path="/News" component={News} />
       </Switch>
     </div>
   </BrowserRouter>

@@ -9,8 +9,8 @@ const SECOND_PAGE = '15_SECONDS';
 const FirstComponent = () => (
   <div className="front animate__animated animate__fadeIn">
       <div className="heading">
-        <p className="white title-one">Discover, Collect, and Sell Extraordinary NFTs</p>
-        <p className="white title-two">...Secured by the Blockchain.</p>
+        <p className="white title-one"></p>
+        <p className="white title-two"></p>
       </div>
       {/* <p><Link to="/Whitepaper" className="px-3 border-0 rounded-pill p-2 wallet white enter">Explore the Market Place</Link></p> */}
   </div>
@@ -19,8 +19,8 @@ const FirstComponent = () => (
 const SecondComponent = () => (
   <div className="frame animate__animated animate__fadeIn second">
       <div className="heading">
-        <p className="white title-three">The Best of African and Carribean Creative Talents in One Place</p>
-        <p className="white title-two">...Rare Arts and Digital Assets.</p>
+        <p className="white title-three"></p>
+        <p className="white title-two"></p>
       </div>
       {/* <p><Link to="/MarketPLace" className="px-3 border-0 rounded-pill p-2 wallet white enter">Explore the Market Place</Link></p> */}
     

@@ -26,6 +26,8 @@ a:hover {
   cursor: pointer;
   border: solid;
   border-color: #bd8d4c;
+  text-align: center;
+  width: auto;
 }
 
 .wallet:hover {

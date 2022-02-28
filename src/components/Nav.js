@@ -19,7 +19,7 @@ function Nav() {
         
         </div>
         <div className="flex1">
-            <p className="pt-4 wallet white font-meridian rounded-pill mt-3">Play Now</p>
+            <p className="wallet white font-meridian rounded-pill mt-3 py-3">Play Now</p>
         </div>
       </div>
       

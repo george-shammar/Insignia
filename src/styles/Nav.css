@@ -33,16 +33,13 @@ a:hover {
 }
 
 .logo {
-  width: 50%;
+  width: 100%;
+  max-height: 6em;
 }
 
 .top-nav {
-  background-image: url("../assets/wood1.jpg");
-  background-color: brown;
-  background-repeat: no-repeat, repeat;
-  height: 100px;
-  background-size: cover;
-  background-position: center;
+  /* background-image: url("../assets/wood1.jpg"); */
+  background-color: #0e0d12;
 }
 
 .flex1 {

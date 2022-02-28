@@ -27,6 +27,7 @@ a:hover {
 
 .wallet {
   background-color: #F14D5D;
+  cursor: pointer;
 }
 
 .hr {
@@ -36,5 +37,5 @@ a:hover {
 }
 
 .logo {
-  width: 8%;
+  width: auto;
 }

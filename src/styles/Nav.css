@@ -38,8 +38,9 @@ a:hover {
 }
 
 .top-nav {
-  /* background-image: url("../assets/wood1.jpg"); */
   background-color: #0e0d12;
+  padding-right: 2.6em;
+  padding-left: 2.6em;
 }
 
 .flex1 {

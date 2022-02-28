@@ -24,6 +24,9 @@ a:hover {
 
 .wallet {
   cursor: pointer;
+  /* border-radius: 25%; */
+  border: solid;
+  border-color: #bd8d4c;
 }
 
 .hr {

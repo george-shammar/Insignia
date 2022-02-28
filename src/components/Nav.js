@@ -7,7 +7,7 @@ import "../styles/Nav.css"
 function Nav() {
     return (
       
-      <div className="top-nav d-flex justify-content-between align-text-center pt-2 px-4">
+      <div className="top-nav d-flex align-text-center">
         <div className="flex1">
           <Link to="/" ><img alt="logo" src={logo} className="logo" /></Link>
         </div>

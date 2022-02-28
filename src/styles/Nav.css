@@ -41,14 +41,13 @@ a:hover {
 }
 
 .logo {
-  width: 100%;
+  width: auto;
   max-height: 6em;
 }
 
 .top-nav {
   background-color: #0e0d12;
   padding-right: 2.6em;
-  padding-left: 2.6em;
 }
 
 .flex1 {

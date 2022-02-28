@@ -8,7 +8,7 @@ function Nav() {
     return (
       <div>
       <div className="top-nav d-flex justify-content-between align-text-center pt-2 px-4">
-        <div className="azania d-flex">
+        <div className="azania">
           {/* <Link to="/" className="pink">Insignia</Link> */}
           <Link to="/" ><img alt="logo" src={logo} className="logo" /></Link>
         </div>

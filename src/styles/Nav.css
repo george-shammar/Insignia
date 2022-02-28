@@ -2,6 +2,10 @@
   font-family: 'Merienda', cursive;
 }
 
+.font-medieval {
+  font-family: 'MedievalSharp', cursive;
+}
+
 a:link {
   text-decoration: none;
 }

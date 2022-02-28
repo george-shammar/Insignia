@@ -1,10 +1,3 @@
-.azania{
-  font-size: 200%;
-  font-weight:900;
-  font-style: italic;
-  font-family: 'Merienda', cursive;
-}
-
 .font-meridian {
   font-family: 'Merienda', cursive;
 }
@@ -26,7 +19,7 @@ a:hover {
 }
 
 .wallet {
-  background-color: #F14D5D;
+  cursor: pointer;
 }
 
 .hr {
@@ -36,5 +29,26 @@ a:hover {
 }
 
 .logo {
-  width: 8%;
+  width: 50%;
+}
+
+.top-nav {
+  background-image: url("../assets/wood1.jpg");
+  background-color: brown;
+  background-repeat: no-repeat, repeat;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+}
+
+.flex1 {
+  width: 20%;
+}
+
+.flex2 {
+  width: 80%;
+}
+
+.flex3 {
+  width: 10%;
 }

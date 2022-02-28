@@ -26,7 +26,7 @@ a:hover {
 }
 
 .wallet {
-  background-color: #F14D5D;
+  /* background-color: #F14D5D; */
   cursor: pointer;
 }
 
@@ -38,4 +38,13 @@ a:hover {
 
 .logo {
   width: auto;
+}
+
+.top-nav {
+  background-image: url("../assets/wood1.jpg");
+  background-color: brown;
+  background-repeat: no-repeat, repeat;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
 }

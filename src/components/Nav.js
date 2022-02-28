@@ -6,8 +6,8 @@ import "../styles/Nav.css"
 
 function Nav() {
     return (
-      <div className="top-nav">
-      <div className="d-flex justify-content-between align-text-center pt-2 px-4">
+      <div>
+      <div className="top-nav d-flex justify-content-between align-text-center pt-2 px-4">
         <div className="azania d-flex">
           {/* <Link to="/" className="pink">Insignia</Link> */}
           <Link to="/" ><img alt="logo" src={logo} className="logo" /></Link>
@@ -19,6 +19,7 @@ function Nav() {
           <p><Link to="/Dashboard" className="px-4 white">Dashboard</Link></p> */}
           <p> <Link to="/" className="px-4 white">Home</Link></p>
           <p><Link to="/Whitepaper" className="px-4 white">Whitepaper</Link></p>
+          <p> <Link to="/MarketPLace" className="px-4 white">Market Place</Link></p>
         <p className="px-3 border-0 rounded-pill p-2 wallet white">Play Now</p>
         </div>
       </div><hr className="hr"/>

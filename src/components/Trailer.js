@@ -4,7 +4,7 @@ import header from '../assets/header1.png';
 const Trailer = () => (
   <div>
       <div>
-        <img src={header}/>
+        <img src={header} className="header" />
         <p>Trailer</p>
       </div>
      

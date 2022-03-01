@@ -1,13 +1,10 @@
 import React from 'react';
-import header from '../assets/header1.png';
+import header from '../assets/header-edit.png';
 
 const Trailer = () => (
-  <div>
-      <div>
-        <img src={header} className="header" />
-        <p>Trailer</p>
-      </div>
-     
+  <div className="bg1">
+      {/* <img src={header}/> */}
+      <p>trailer</p>
   </div>
   
 );

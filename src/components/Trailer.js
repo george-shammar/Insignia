@@ -1,12 +1,15 @@
 import React from 'react';
 import header from '../assets/header-edit.png';
+import '../styles/Trailer.css';
 
-const Trailer = () => (
-  <div>
-      {/* <img src={header}/> */}
-      <p className="trailer">trailer</p>
-  </div>
-  
-);
+const Trailer = () => {
+  return(
+    <div className="trailer">
+      
+      
+    </div>
+  )
+
+};
 
 export default Trailer;

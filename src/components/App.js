@@ -13,8 +13,8 @@ function App() {
         <Nav />
         <Home />
         <Trailer />
-        <Footer />
-        <Copyright />
+        {/* <Footer />
+        <Copyright /> */}
       </div>
       
     </div>

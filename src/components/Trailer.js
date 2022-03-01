@@ -2,9 +2,9 @@ import React from 'react';
 import header from '../assets/header-edit.png';
 
 const Trailer = () => (
-  <div className="bg1">
+  <div>
       {/* <img src={header}/> */}
-      <p>trailer</p>
+      <p className="trailer">trailer</p>
   </div>
   
 );

@@ -32,7 +32,7 @@
 
 .front {
   
-  background-image: url("../assets/battle-scene.jpg");
+  /* background-image: url("../assets/battle-scene.jpg"); */
   /* height: 100%; */
   /* background-repeat: no-repeat; */
   /* background-position: absolute;
@@ -47,7 +47,7 @@ visibility: inherit;
 }
 
 .second {
-  background-image: url("../assets/army.png");
+  /* background-image: url("../assets/army.png"); */
   /* height: 100%;
   background-repeat: no-repeat;
   background-position: absolute;

@@ -4,6 +4,7 @@ import Home from './Home';
 import "../styles/App.css"
 import Footer from "./Footer";
 import Copyright from './Copyright';
+import Trailer from './Trailer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div className="app">
         <Nav />
         <Home />
+        <Trailer />
         <Footer />
         <Copyright />
       </div>

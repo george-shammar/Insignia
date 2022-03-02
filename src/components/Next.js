@@ -8,7 +8,7 @@ const Next = () => {
             <div className="next">
                 
             </div>
-            <img src={footer} className="rough"/>
+            {/* <img src={footer} className="rough"/> */}
         </div>
     
     )

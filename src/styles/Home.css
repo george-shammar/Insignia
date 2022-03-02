@@ -32,18 +32,18 @@
 
 .front {
   
-  /* background-image: url("../assets/battle-scene.jpg"); */
+  background-image: url("../assets/edited-rider.jpg");
   /* height: 100%; */
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   /* background-position: absolute;
   background-position-x: 100%; */
-  position: absolute;
-overflow: hidden;
+  /* position: absolute; */
+/* overflow: hidden;
 height: 100%;
 width: 100%;
 z-index: 20;
 opacity: 1;
-visibility: inherit;
+visibility: inherit; */
 }
 
 .second {

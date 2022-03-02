@@ -1,14 +1,14 @@
 import '../styles/Next.css'
-import header from '../assets/bottom_brown.png';
+import footer from '../assets/footer-edit.png'
 const Next = () => {
     return (
         <div>
              
         
-            <div className="community">
+            <div className="next">
                 
             </div>
-            <img src={header} className="rough"/>
+            <img src={footer} className="rough"/>
         </div>
     
     )

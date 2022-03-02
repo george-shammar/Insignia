@@ -23,8 +23,8 @@ function App() {
         <Event />
         <Community />
         <Next />
-        {/* <Footer />
-        <Copyright /> */}
+        <Footer />
+        <Copyright />
       </div>
       
     </div>

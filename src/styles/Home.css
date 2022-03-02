@@ -32,34 +32,20 @@
 
 .front {
   
-  background-image: url("../assets/edited-rider.jpg");
-  /* height: 100%; */
+  background-image: url("../assets/army2.png");
   background-repeat: no-repeat;
-  /* background-position: absolute;
-  background-position-x: 100%; */
-  /* position: absolute; */
-/* overflow: hidden;
-height: 100%;
-width: 100%;
-z-index: 20;
-opacity: 1;
-visibility: inherit; */
+  height: 100vh;
+  background-size: cover;
+  width: 100%;
+  background-position-x: 100%;
 }
 
 .second {
-  /* background-image: url("../assets/army.png"); */
-  /* height: 100%;
-  background-repeat: no-repeat;
-  background-position: absolute;
-  background-position-x: 100%; */
-
-  position: absolute;
-overflow: hidden;
-height: 100%;
-width: 100%;
-z-index: 20;
-opacity: 1;
-visibility: inherit;
+  background-image: url("../assets/edited-rider2.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 100%;
 }
 
 .white {

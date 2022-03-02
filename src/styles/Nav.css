@@ -2,24 +2,33 @@
   font-family: 'Merienda', cursive;
 }
 
+.font-medieval {
+  font-family: 'MedievalSharp', cursive;
+}
+
 a:link {
   text-decoration: none;
 }
 
 a:hover {
-  color: #F14D5D;
+  color: #bd8d4c;
 }
 
 .white {
   color: white;
 }
 
-.pink {
-  color: #F14D5D;
-}
-
 .wallet {
   cursor: pointer;
+  border: solid;
+  border-color: #bd8d4c;
+  text-align: center;
+  width: auto;
+  text-decoration: none;
+}
+
+.wallet:hover {
+  background-color: #bd8d4c;
 }
 
 .hr {
@@ -29,16 +38,14 @@ a:hover {
 }
 
 .logo {
-  width: 50%;
+  width: auto;
+  max-height: 6em;
 }
 
 .top-nav {
-  background-image: url("../assets/wood1.jpg");
-  background-color: brown;
-  background-repeat: no-repeat, repeat;
-  height: 100px;
-  background-size: cover;
-  background-position: center;
+  background-color: #0e0d12;
+  padding-right: 2.6em;
+ 
 }
 
 .flex1 {
@@ -51,4 +58,8 @@ a:hover {
 
 .flex3 {
   width: 10%;
+}
+
+.gold {
+  color: #bd8d4c;
 }

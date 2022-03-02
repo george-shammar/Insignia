@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import "../styles/Home.css"
 import 'animate.css';
 
@@ -8,11 +8,11 @@ const SECOND_PAGE = '15_SECONDS';
 
 const FirstComponent = () => (
   <div className="front animate__animated animate__fadeIn">
-      <div className="heading">
-        <p className="white title-one"></p>
+      <div>
+        <p className="title-one gold font-medieval">INSIGNIA</p>
         <p className="white title-two"></p>
       </div>
-      {/* <p><Link to="/Whitepaper" className="px-3 border-0 rounded-pill p-2 wallet white enter">Explore the Market Place</Link></p> */}
+      <p><Link to="/Whitepaper" className="px-3 border-0 rounded-pill p-2 white enter">Whitepaper</Link></p>
   </div>
 );
 
@@ -22,7 +22,7 @@ const SecondComponent = () => (
         <p className="white title-three"></p>
         <p className="white title-two"></p>
       </div>
-      {/* <p><Link to="/MarketPLace" className="px-3 border-0 rounded-pill p-2 wallet white enter">Explore the Market Place</Link></p> */}
+      <p><Link to="/Whitepaper" className="px-3 border-0 rounded-pill p-2 white enter">Whitepaper</Link></p>
     
   </div>
   

@@ -1,0 +1,8 @@
+.next {
+    background-image: url('../assets/background-white.jpg');
+    background-color: #f2e0c8;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}

@@ -9,7 +9,7 @@ const Footer = () => {
                 <footer>
                     <div className="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-between footer-flex align-items-start ">
                     <div className="width-30">
-                        <h6 className="white font py-5">Lorem proin volutpat</h6>
+                        <h6 className="white py-5">Lorem proin volutpat</h6>
                         <p className="grey">Ligula quis sapien nam molestie massa quis pede maecenas quis lacus nunc sed 
                         lectus quis lectus tristique tincidunt sed varius nisl tincidunt lectus pellentesque 
                         sagittis mauris ut leo ullamcorper tortor morbi accumsan.</p>

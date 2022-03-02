@@ -5,6 +5,7 @@ import "../styles/App.css"
 import Footer from "./Footer";
 import Copyright from './Copyright';
 import Trailer from './Trailer';
+import Scroll from './Scroll';
 
 function App() {
   return (

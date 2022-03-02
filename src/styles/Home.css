@@ -32,12 +32,11 @@
 
 .front {
   
-  /* background-image: url("../assets/army2.png"); */
-  /* background-repeat: no-repeat; */
+  /* background-image: url("../assets/rider.png");
+  background-repeat: no-repeat; */
   height: 100vh;
-  /* background-size: cover;
+  /* background-size: cover; */
   width: 100%;
-  background-position-x: 100%; */
 }
 
 .second {

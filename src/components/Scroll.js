@@ -1,6 +1,7 @@
 import React from 'react';
 import topdark from '../assets/top_dark.png';
 import bottomdark from '../assets/bottom_dark.png';
+import { Link } from 'react-router-dom';
 import '../styles/Scroll.css';
 
 const Scroll = () => {
@@ -43,7 +44,7 @@ const Scroll = () => {
                 <div className="border rounded card-space shadow-lg">
                 <article className="px-2">
                     <i class="fas fa-book-open pink py-4 icon-size"></i>
-                    <h6 cclassName="bold pb-3">Resources</h6>
+                    <h6 cclassName="bold pb-3">Download and Play</h6>
                     <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
@@ -52,7 +53,7 @@ const Scroll = () => {
                 </div>
             </div>
                 <div>
-                    <p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2">Play Now</p>
+                    <Link to="/Play" ><p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2">Play Now</p></Link>
                 </div>
             </section>
             

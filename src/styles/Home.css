@@ -5,10 +5,10 @@
 }
 
 .title-one {
-  font-size: 50px;
+  font-size: 5em;
   line-height: 1.2;
   position: relative;
-  top: 300px;
+  top: 300px; 
 }
 
 .title-three {

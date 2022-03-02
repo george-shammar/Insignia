@@ -7,6 +7,7 @@ import Copyright from './Copyright';
 import Trailer from './Trailer';
 import Scroll from './Scroll';
 import Join from './Join';
+import Event from './Event';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Trailer />
         <Join />
         <Scroll />
+        <Event />
         {/* <Footer />
         <Copyright /> */}
       </div>

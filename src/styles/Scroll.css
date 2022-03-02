@@ -1,0 +1,6 @@
+.scroll {
+    background-image: url('../assets/oldscroll.png');
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

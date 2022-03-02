@@ -14,6 +14,7 @@ function App() {
         <Nav />
         <Home />
         <Trailer />
+        <Scroll />
         {/* <Footer />
         <Copyright /> */}
       </div>

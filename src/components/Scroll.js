@@ -1,14 +1,16 @@
 import React from 'react';
-import header from '../assets/header-edit.png';
+import topdark from '../assets/top_dark.png';
 import '../styles/Scroll.css';
 
 const Scroll = () => {
   return(
-    <div className="scroll">
-        <img src={header} className="rough"/>
+      <div>
+             <img src={topdark} className="rough"/>
+    <div className="scroll font-medieval">
+     
       <section>
-            <h6 className="topic font py-5">Getting Started</h6>
-            <h6 className="d-flex justify-content-center">Follow the simple steps below to quickly get started with <p className="Azania pink px-2">Azania.</p></h6>
+            <h6 className="topic py-5">Getting Started</h6>
+            
             <div className="d-flex py-5 px-5 justify-content-between">
                 <div className="border rounded card-space shadow-lg">
                     <article className="px-2">
@@ -57,6 +59,7 @@ const Scroll = () => {
             </div>
             </section>
 
+        </div>
     </div>
   )
 

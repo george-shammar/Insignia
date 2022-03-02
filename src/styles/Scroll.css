@@ -1,3 +1,10 @@
 .scroll {
     background-color: rgb(232, 211, 182);
 }
+
+.topic {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 1.06;
+}

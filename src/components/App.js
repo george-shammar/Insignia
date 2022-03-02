@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import Copyright from './Copyright';
 import Trailer from './Trailer';
 import Scroll from './Scroll';
+import Join from './Join';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Nav />
         <Home />
         <Trailer />
+        <Join />
         <Scroll />
         {/* <Footer />
         <Copyright /> */}

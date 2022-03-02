@@ -52,7 +52,7 @@ const Scroll = () => {
                 </div>
             </div>
                 <div>
-                    <p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-3 py-2">Play Now</p>
+                    <p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2">Play Now</p>
                 </div>
             </section>
             

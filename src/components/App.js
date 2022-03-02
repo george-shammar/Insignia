@@ -9,6 +9,7 @@ import Scroll from './Scroll';
 import Join from './Join';
 import Event from './Event';
 import Community from './Community';
+import Next from './Next';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Scroll />
         <Event />
         <Community />
+        <Next />
         {/* <Footer />
         <Copyright /> */}
       </div>

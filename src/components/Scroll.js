@@ -51,7 +51,11 @@ const Scroll = () => {
                 </article>
                 </div>
             </div>
+                <div>
+                    <p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-3 py-2">Play Now</p>
+                </div>
             </section>
+            
 
         </div>
         <img src={bottomdark} className="rough"/>

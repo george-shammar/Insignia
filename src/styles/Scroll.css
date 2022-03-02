@@ -8,3 +8,14 @@
     font-weight: 700;
     line-height: 1.06;
 }
+
+.wallet-scroll {
+  cursor: pointer;
+  border: solid;
+  border-color: #bd8d4c;
+  background-color: #bd8d4c;
+  text-align: center;
+  width: 12%;
+  margin: auto;
+  
+}

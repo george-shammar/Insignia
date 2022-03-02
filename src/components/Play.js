@@ -1,8 +1,9 @@
 import React from 'react';
-import Nav from "./Nav";
+import '../styles/Play.css';
+
 
 const Play = () => (
-  <div>
+  <div className="play">
       <div>
       
         

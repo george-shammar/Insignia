@@ -8,6 +8,7 @@ import Trailer from './Trailer';
 import Scroll from './Scroll';
 import Join from './Join';
 import Event from './Event';
+import Community from './Community';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Join />
         <Scroll />
         <Event />
+        <Community />
         {/* <Footer />
         <Copyright /> */}
       </div>

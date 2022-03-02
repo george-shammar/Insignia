@@ -22,7 +22,7 @@ function App() {
         <Scroll />
         <Event />
         <Community />
-        <Next />
+        {/* <Next /> */}
         <Footer />
         <Copyright />
       </div>

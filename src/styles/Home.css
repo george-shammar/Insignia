@@ -52,11 +52,7 @@
 }   */
 
 .front {
-<<<<<<< HEAD
   height: 100vh;
-=======
-  
->>>>>>> 4a0126a18134c4636f84d9f4c36411a18822a817
   /* background-image: url("../assets/rider.png");
   background-repeat: no-repeat; */
   /* height: 100vh; */
@@ -71,12 +67,8 @@
     /* height: 100vh; */
     /* background-repeat: no-repeat;
     background-size: cover;
-<<<<<<< HEAD
     background-position-x: 100%; */
     /* width: 100%; */
-=======
-    background-position-x: 100%;
->>>>>>> 4a0126a18134c4636f84d9f4c36411a18822a817
 }
 
 .white {

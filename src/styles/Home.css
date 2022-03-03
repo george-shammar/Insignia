@@ -14,12 +14,13 @@
   background-color: #bd8d4c;
 }
 
-/* .title-one {
+.title-one {
   font-size: 5em;
   line-height: 1.2;
   position: relative;
-  top: 300px; 
-} */
+  top: 300px;
+  width: 10%;
+}
 /* 
 .title-three {
   font-size: 40px;

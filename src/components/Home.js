@@ -10,7 +10,7 @@ const FirstComponent = () => (
   <div>
   <div className="front animate__animated animate__fadeIn">
       <div>
-        <p className="title-one gold font-medieval">First</p>
+        <p className="title-one gold font-medieval center">First</p>
         <p className="white title-two"></p>
       </div>
       

@@ -14,25 +14,25 @@
   background-color: #bd8d4c;
 }
 
-.title-one {
+/* .title-one {
   font-size: 5em;
   line-height: 1.2;
   position: relative;
   top: 300px; 
-}
-
+} */
+/* 
 .title-three {
   font-size: 40px;
   width: 60%;
   line-height: 1.2;
   font-family: 'Roboto', sans-serif;
-}
+} */
 
-.title-two {
+/* .title-two {
   font-size: 30px;
   font-family: 'Roboto', sans-serif;
   font-style: italic;
-}
+} */
 /* 
 .heading {
   position: absolute;
@@ -41,34 +41,33 @@
 }   */
 
 .front {
-  
+  height: 100vh;
   /* background-image: url("../assets/rider.png");
   background-repeat: no-repeat; */
-  height: 100vh;
+  /* height: 100vh; */
   /* background-size: cover; */
-  width: 100%;
+  /* width: 100%; */
 }
 
 .second {
+
+  height: 100vh;
   /* background-image: url("../assets/edited-rider2.jpg"); */
-    height: 100vh;
+    /* height: 100vh; */
     /* background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 100%; */
-    width: 100%;
+    /* width: 100%; */
 }
 
 .white {
   color: white;
 }
 
-.frame {
+/* .frame {
   height: 520px;
-}
+} */
 
-.african {
-  height: 350px;
-}
 
 .animate__animated.animate__fadeIn {
   --animate-duration: 5s;

@@ -10,8 +10,8 @@ const FirstComponent = () => (
   <div>
   <div className="front animate__animated animate__fadeIn">
       <div>
-        {/* <p className="title-one gold font-medieval">INSIGNIA</p> */}
-        {/* <p className="white title-two"></p> */}
+        <p className="title-one gold font-medieval">First</p>
+        <p className="white title-two"></p>
       </div>
       
   </div>
@@ -25,8 +25,8 @@ const FirstComponent = () => (
 const SecondComponent = () => (
   <div>
       <div className="frame animate__animated animate__fadeIn second">
-      <div className="heading">
-        <p className="white title-three"></p>
+      <div>
+        <p className="white title-three">Second</p>
         <p className="gold title-two">A new world of Play-To-Earn.</p>
       </div>
       

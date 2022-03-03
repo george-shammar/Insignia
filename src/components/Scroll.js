@@ -8,12 +8,12 @@ const Scroll = () => {
   return(
       <div>
              <img src={topdark} className="rough"/>
-    <div className="scroll font-medieval">
+    <div className="scroll">
      
       <section>
-            <h6 className="topic py-5">Getting Started</h6>
-            
-            <div className="d-flex py-5 px-5 justify-content-between">
+            <h6 className="topic py-5 font-medieval">Getting Started</h6>
+            <p className='get-started font-roboto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div className="d-flex py-5 px-5 justify-content-between font-roboto">
                 <div className="border rounded card-space shadow-lg">
                     <article className="px-2">
                         <i className="fas fa-door-open pink py-4 icon-size "></i>

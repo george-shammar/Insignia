@@ -9,6 +9,9 @@
   text-decoration: none;
 }
 
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
+}
 
 .enter:hover {
   background-color: #bd8d4c;

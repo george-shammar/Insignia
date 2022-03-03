@@ -19,21 +19,28 @@
   line-height: 1.2;
   position: relative;
   top: 300px;
-  width: 10%;
+  width: 100%;
+  text-align: center;
 }
-/* 
-.title-three {
-  font-size: 40px;
-  width: 60%;
-  line-height: 1.2;
-  font-family: 'Roboto', sans-serif;
-} */
 
-/* .title-two {
-  font-size: 30px;
+.title-three {
+  font-size: 5em;
+  line-height: 1.2;
+  position: relative;
+  top: 300px;
+  width: 100%;
+  text-align: center;
+}
+
+.title-two {
+  font-size: 15px;
   font-family: 'Roboto', sans-serif;
-  font-style: italic;
-} */
+  color: rgb(242, 224, 200);
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 320px;
+}
 /* 
 .heading {
   position: absolute;

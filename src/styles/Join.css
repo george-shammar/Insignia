@@ -20,3 +20,11 @@
 .join-text {
     text-align: center;
 }
+
+.topic-join {
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 4em;
+    font-weight: 700;
+    line-height: 1.06;
+}

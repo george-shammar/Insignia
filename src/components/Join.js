@@ -5,7 +5,7 @@ import join from '../assets/join.png';
 const Join = () => {
   return(
     <div className="join">
-      <h6 className="topic gold font-medieval py-5">Join Us</h6>
+      <h6 className="white topic-join font-medieval py-5">Join Us</h6>
       <p className="white join-text font-meridian">Join the conversation on our social media channels.</p>
       <div className="join-social">
         <div className="d-flex fav-icons center">

@@ -1,7 +1,17 @@
 .enter {
   position: relative;
-  top: 450px;
-  left: 50%;
+  bottom: 30vh;
+  cursor: pointer;
+  border: solid;
+  border-color: #bd8d4c;
+  text-align: center;
+  width: 15%;
+  text-decoration: none;
+}
+
+
+.enter:hover {
+  background-color: #bd8d4c;
 }
 
 .title-one {
@@ -42,9 +52,10 @@
 .second {
   /* background-image: url("../assets/edited-rider2.jpg"); */
     height: 100vh;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: 100%;
+    background-position-x: 100%; */
+    width: 100%;
 }
 
 .white {

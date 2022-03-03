@@ -1,0 +1,44 @@
+.scroll {
+    background-color: rgb(232, 211, 182);
+    padding-bottom: 100px;
+}
+
+.topic {
+    text-align: center;
+    word-wrap: break-word;
+    color: #070301;
+    font-size: 4em;
+    font-weight: 700;
+    line-height: 1.06;
+}
+
+.card-space {
+    margin-right: 2%;
+    text-align: center;
+    max-width: 25%;
+}
+
+.action:hover {
+    color: #bd8d4c;
+}
+
+.wallet-scroll {
+  cursor: pointer;
+  border: solid;
+  border-color: #bd8d4c;
+  background-color: #bd8d4c;
+  text-align: center;
+  width: 12%;
+  margin: auto;
+  
+}
+
+.get-started {
+    text-align: center;
+    color: #877c6d;
+}
+
+.castle {
+    width: 15%;
+    color: #bd8d4c;
+}

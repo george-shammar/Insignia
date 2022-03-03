@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import "../styles/Home.css"
 import 'animate.css';
 
@@ -7,24 +7,37 @@ const FIRST_PAGE = '5_SECONDS';
 const SECOND_PAGE = '15_SECONDS';
 
 const FirstComponent = () => (
+  <div>
   <div className="front animate__animated animate__fadeIn">
-      <div className="heading">
-        <p className="white title-one">AAA immersive Play-to-earn experience</p>
-        <p className="white title-two">...On the fastest blockchain network</p>
+      <div>
+        <p className="title-one white font-medieval">First</p>
+        <p className="title-two">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
       </div>
-      {/* <p><Link to="/Whitepaper" className="px-3 border-0 rounded-pill p-2 wallet white enter">Explore the Market Place</Link></p> */}
+      
+  </div>
+  <div>
+    
+      <Link to="/Whitepaper"><p className="font-meridian white enter rounded-pill mt-3 py-2 center">Whitepaper</p></Link>
+    </div>
   </div>
 );
 
 const SecondComponent = () => (
-  <div className="frame animate__animated animate__fadeIn second">
-      <div className="heading">
-        <p className="white title-three">Place holder</p>
-        <p className="white title-two">...Rare Arts and Digital Assets.</p>
+  <div>
+      <div className="frame animate__animated animate__fadeIn second">
+      <div>
+        <p className="title-three white font-medieval">Second</p>
+        <p className="title-two">A new world of Play-To-Earn.</p>
       </div>
-      {/* <p><Link to="/MarketPLace" className="px-3 border-0 rounded-pill p-2 wallet white enter">Explore the Market Place</Link></p> */}
+      
     
+      </div>
+      <div>
+    
+        <Link to="/Whitepaper"><p className="font-meridian white enter rounded-pill mt-3 py-2 center">Whitepaper</p></Link>
+      </div>
   </div>
+  
   
 );
 

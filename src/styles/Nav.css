@@ -1,12 +1,9 @@
-.azania{
-  font-size: 200%;
-  font-weight:900;
-  font-style: italic;
+.font-meridian {
   font-family: 'Merienda', cursive;
 }
 
-.font-meridian {
-  font-family: 'Merienda', cursive;
+.font-medieval {
+  font-family: 'MedievalSharp', cursive;
 }
 
 a:link {
@@ -14,27 +11,55 @@ a:link {
 }
 
 a:hover {
-  color: #F14D5D;
+  color: #bd8d4c;
 }
 
 .white {
   color: white;
 }
 
-.pink {
-  color: #F14D5D;
-}
-
 .wallet {
-  background-color: #F14D5D;
+  cursor: pointer;
+  border: solid;
+  border-color: #bd8d4c;
+  text-align: center;
+  width: auto;
+  text-decoration: none;
 }
 
-.hr {
+.wallet:hover {
+  background-color: #bd8d4c;
+}
+
+/* .hr {
   margin-top: 0;
   padding-top: 0;
   margin-bottom: 0;
-}
+} */
 
 .logo {
-  width: 8%;
+  width: auto;
+  max-height: 6em;
+}
+
+.top-nav {
+  background-color: #0e0d12;
+  padding-right: 2.6em;
+ 
+}
+
+.flex1 {
+  width: 20%;
+}
+
+.flex2 {
+  width: 80%;
+}
+
+.flex3 {
+  width: 10%;
+}
+
+.gold {
+  color: #bd8d4c;
 }

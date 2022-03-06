@@ -2,9 +2,14 @@
   text-align: center;
 }
 
-/* .one {
-  background-color: #bd8d4c;
+.one {
+  background-color: #bd8d4c !important;
   width: 30%;
   margin: auto;
-} */
+}
 
+.two {
+  background-color: grey !important;
+  width: 30%;
+  margin: auto;
+}

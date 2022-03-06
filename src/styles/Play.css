@@ -41,3 +41,7 @@
 .arrow {
     width: 20px;
 }
+
+button:active {
+    background-color: #bd8d4c;
+}

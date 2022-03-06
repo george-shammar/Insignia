@@ -1,11 +1,11 @@
-/* .two {
+.two {
   background-color: #bd8d4c;
   width: 30%;
   margin: auto;
 }
 
 .one {
-  background-color: grey;
+  background-color: grey !important;
   width: 30%;
   margin: auto;
-} */
+}

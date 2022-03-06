@@ -14,7 +14,7 @@ const WalletSetup = () => (
         <div>
           <ProgressBar />
         </div>
-        <div className='font-meridian'>
+        <div className='font-meridian near-wallet'>
         <h3>Create your NEAR wallet</h3>
           <p>Insignia lives on the NEAR protocol. NEAR Wallet is your boarding pass to our metaverse.</p>
         </div>

@@ -21,6 +21,9 @@ const CreateAsset = () => (
           <p className='gold'>Please refer to the "Getting Started" section to understand the type of asset you need to start playing</p>
          
         </div>
+        <div>
+                    <Link to="/Marketplace"><p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2">Marketplace</p></Link>
+        </div>
         
           <div className='d-flex setup-navigation pt-5 mb-5'>
               <Link to="GetToken" className='font-meridian back'><p><img src={backwardArrow} className="arrow"/> Back</p></Link>

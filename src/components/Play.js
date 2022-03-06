@@ -4,8 +4,8 @@ import '../styles/Play.css';
 
 const Play = () => (
   <div className="play">
-      <div>
-        
+      <div className='d-flex steps'>
+
         <div>
           <p>1</p>
           <p>NEAR Wallet Set up</p>

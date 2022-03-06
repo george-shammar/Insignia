@@ -36,7 +36,7 @@ const Play = () => (
           </div>
       </Link>
           
-      <Link to="/CreateAsset"> <div className='child'>
+      <Link to="/DownloadGame"> <div className='child'>
             <p className='step-figure py-2 rounded'>4</p>
             <p className='mt-3'>Download & Play</p> 
           </div>

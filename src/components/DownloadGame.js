@@ -1,16 +1,36 @@
 import React from 'react';
 import Nav from "./Nav";
 import Copyright from './Copyright';
+import ProgressBar from './ProgressBar';
+import { Link } from 'react-router-dom';
+import forwardArrow from '../assets/right-arrows.png';
+import backwardArrow from '../assets/left-arrow.png';
 
 const DownloadGame = () => (
   <div>
       <div className='play'>
-          <div>
+        <div>
           <Nav />
-            <p>Download Game</p>
-          </div>
+        </div>
+        <div>
+          <ProgressBar />
+        </div>
+        <div className='font-meridian near-wallet pt-5'>
+        <h3>Download Insignia</h3>
+          <p className='gold'>Select your preferred platform below.... Have Fun!!</p>
+         
+        </div>
+        <div>
+                    <Link to="/Marketplace"><p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2">Marketplace</p></Link>
+        </div>
         
-      </div>
+          <div className='d-flex setup-navigation pt-5 mb-5'>
+              <Link to="GetToken" className='font-meridian back'><p><img src={backwardArrow} className="arrow"/> Back</p></Link>
+             <Link to="/" className='font-meridian back'><p>Next <img src={forwardArrow} className="arrow"/></p></Link> 
+             
+          </div>
+         </div>
+
         <Copyright />
   </div>
 );

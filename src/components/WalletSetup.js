@@ -1,16 +1,17 @@
 import React from 'react';
 import Nav from "./Nav";
 import Copyright from './Copyright';
+import ProgressBar from './ProgressBar';
 
 const WalletSetup = () => (
   <div>
       <div className='play'>
-          <div>
+        <div>
           <Nav />
-            <p>Set up wallet</p>
-          </div>
+        </div>
+        <h3>Create your NEAR wallet</h3>
         
-      </div>
+         </div>
      <Copyright />
   </div>
 );

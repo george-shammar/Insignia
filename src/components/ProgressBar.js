@@ -1,7 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import '../styles/Play.css';
 
 const ProgressBar = () => (
   <div>
+    <div className='d-flex steps px-5 pt-5 play'>
         <Link to="/WalletSetup">
           <div className='child'>
               
@@ -35,6 +38,7 @@ const ProgressBar = () => (
               <p className='mt-3'>Download & Play</p> 
             </div>
         </Link>
+      </div>
   </div>
 );
 

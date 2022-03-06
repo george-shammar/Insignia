@@ -4,7 +4,7 @@ import '../styles/Play.css';
 
 const ProgressBar = () => (
   <div>
-    <div className='d-flex steps px-5 pt-5 play'>
+    <div className='d-flex steps px-5 pt-5'>
         <Link to="/WalletSetup">
           <div className='child'>
               

@@ -9,7 +9,7 @@ import Play from './Play';
 import WalletSetup from './WalletSetup';
 import GetToken from './GetToken';
 import CreateAsset from './CreateAsset';
-
+import DownloadGame from './DownloadGame';
 
 const Routes = () => (
   <BrowserRouter>
@@ -24,6 +24,7 @@ const Routes = () => (
         <Route exact path="/WalletSetup" component={WalletSetup} />
         <Route exact path="/GetToken" component={GetToken} />
         <Route exact path="/CreateAsset" component={CreateAsset} />
+        <Route exact path="/DownloadGame" component={DownloadGame} />
       </Switch>
     </div>
   </BrowserRouter>

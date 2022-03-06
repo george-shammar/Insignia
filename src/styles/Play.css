@@ -11,18 +11,13 @@
     align-self: center;
 }
 
-/* .child {
+.child {
     text-align: center;
     cursor: pointer;
-} */
-/* 
+}
+
 .step-figure {
     background-color: rgb(242, 224, 200);
     width: 40%;
-    margin: 0;
-} */
-
-.line {
-    width: 100%;
     margin: 0;
 }

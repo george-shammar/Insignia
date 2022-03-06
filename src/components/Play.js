@@ -6,9 +6,9 @@ import '../styles/Play.css';
 
 
 const Play = () => (
-  <div className="play">
+  <div >
     <Nav />
-      <div className='d-flex steps px-5 pt-5'>
+      <div className='d-flex steps px-5 pt-5 play'>
 
       <Link to="/WalletSetup"><div className='child'>
         

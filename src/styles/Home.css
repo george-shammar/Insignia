@@ -53,9 +53,11 @@
 
 .front {
   height: 100vh;
-  /* background-image: url("../assets/rider.png");
-  background-repeat: no-repeat; */
-  /* height: 100vh; */
+  /* background-image: url("../assets/army.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  opacity: 1;
+  filter: none; */
   /* background-size: cover; */
   /* width: 100%; */
 }

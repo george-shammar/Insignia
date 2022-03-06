@@ -1,4 +1,23 @@
 .play {
     background-color: white;
     height: 100vh;
+    width: auto;
+}
+
+.steps {
+    width: auto;
+    justify-content: space-around;
+    align-content: center;
+    align-self: center;
+}
+
+.child {
+    text-align: center;
+    cursor: pointer;
+}
+
+.step-figure {
+    background-color: rgb(242, 224, 200);
+    width: 30%;
+    margin: auto;
 }

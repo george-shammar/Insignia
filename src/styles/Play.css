@@ -6,4 +6,10 @@
 .steps {
     width: 100%;
     justify-content: space-around;
+    align-content: center;
+}
+
+.child {
+    text-align: center;
+    cursor: pointer;
 }

@@ -1,12 +1,14 @@
 import React from 'react';
+import Nav from './Nav';
 import '../styles/Play.css';
 
 
 const Play = () => (
   <div className="play">
-      <div className='d-flex steps'>
+    <Nav />
+      <div className='d-flex steps pt-5'>
 
-        <div>
+        <div className='child'>
           <p>1</p>
           <p>NEAR Wallet Set up</p>
         </div>

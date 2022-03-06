@@ -21,13 +21,22 @@ const DownloadGame = () => (
          
         </div>
         <div>
-            <p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2">PS5</p>
+          <div className='d-flex'>
+            <p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2">Linux</p>
             <p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2">Android</p>
             <p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2">Windows</p>
-            <p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2">MacOS</p>
-            <p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2">Windows</p>
-            <p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2">IOS</p>
-            <p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2">Linux</p>
+          </div>
+            <div className='d-flex'>
+              <p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2">MacOS</p>
+              <p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2">Windows</p>
+              <p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2">IOS</p>
+            </div>
+            <div className='d-flex'>
+              <p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2">PS5</p>
+              <p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2">Xbox</p>
+            </div>
+            
+            
         </div>
         
           <div className='d-flex setup-navigation pt-5 mb-5'>

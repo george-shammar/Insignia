@@ -9,30 +9,30 @@ const Play = () => (
       <div className='d-flex steps px-5 pt-5'>
 
           <div className='child'>
-            <p className='step-figure py-2 rounded center'>1</p>
+            <p className='step-figure py-2 rounded'>1</p>
             {/* <p className='line mt-2'>----------------------------------</p> */}
-            <p>NEAR Wallet Set up</p>
+            <p className='mt-3'>NEAR Wallet Set up</p>
           </div>
           
 
         
           <div className='child'>
-            <p className='step-figure py-2 rounded center'>2</p>
+            <p className='step-figure py-2 rounded'>2</p>
             {/* <p className='line mt-2'>----------------------------------</p> */}
-            <p>Get Insignia Token</p>
+            <p className='mt-3'>Get Insignia Token</p>
           </div>
         
 
           <div className='child'>
-            <p className='step-figure py-2 rounded center'>3</p>
+            <p className='step-figure py-2 rounded'>3</p>
             {/* <p className='line mt-2'>----------------------------------</p> */}
-            <p>Creat Game Asset</p>
+            <p className='mt-3'>Creat Game Asset</p>
           </div>
         
           
           <div className='child'>
-            <p className='step-figure py-2 rounded center'>4</p>
-            <p>Download & Play</p> 
+            <p className='step-figure py-2 rounded'>4</p>
+            <p className='mt-3'>Download & Play</p> 
           </div>
         
         

@@ -1,6 +1,5 @@
 import React from 'react';
 import Nav from './Nav';
-import WalletSetup from './WalletSetup';
 import { Link } from 'react-router-dom';
 import '../styles/Play.css';
 
@@ -10,7 +9,7 @@ const Play = () => (
     <Nav />
       <div className='d-flex steps px-5 pt-5'>
 
-      <Link to="/WalletSetup" className='play-text'><div className='child'>
+      <Link to="/WalletSetup"><div className='child'>
         
             <p className='step-figure py-2 rounded'>1</p>
             {/* <p className='line mt-2'>----------------------------------</p> */}
@@ -21,12 +20,13 @@ const Play = () => (
           
 
         
-          <div className='child'>
+      <Link to="/GetToken"><div className='child'>
 
             <p className='step-figure py-2 rounded'>2</p>
             {/* <p className='line mt-2'>----------------------------------</p> */}
             <p className='mt-3'>Get Insignia Token</p>
           </div>
+      </Link>
         
 
           <div className='child'>

@@ -6,6 +6,7 @@ import Marketplace from './Marketplace';
 import Home from './Home';
 import News from './News';
 import Play from './Play';
+import WalletSetup from './WalletSetup';
 
 
 const Routes = () => (
@@ -18,6 +19,8 @@ const Routes = () => (
         <Route exact path="/MarketPLace" component={Marketplace} />
         <Route exact path="/News" component={News} />
         <Route exact path="/Play" component={Play} />
+        <Route exact path="/WalletSetup" component={WalletSetup} />
+
       </Switch>
     </div>
   </BrowserRouter>

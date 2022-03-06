@@ -29,12 +29,12 @@ const Play = () => (
       </Link>
         
 
-          <div className='child'>
+      <Link to="/CreateAsset"> <div className='child'>
             <p className='step-figure py-2 rounded'>3</p>
             {/* <p className='line mt-2'>----------------------------------</p> */}
             <p className='mt-3'>Creat Game Asset</p>
           </div>
-        
+      </Link>
           
           <div className='child'>
             <p className='step-figure py-2 rounded'>4</p>

@@ -5,7 +5,7 @@ import App from './App';
 import Marketplace from './Marketplace';
 import Home from './Home';
 import News from './News';
-import Play from './Play';
+// import Play from './Play';
 import WalletSetup from './WalletSetup';
 import GetToken from './GetToken';
 import CreateAsset from './CreateAsset';
@@ -20,7 +20,7 @@ const Routes = () => (
         <Route exact path="/Whitepaper" component={Whitepaper} />
         <Route exact path="/MarketPLace" component={Marketplace} />
         <Route exact path="/News" component={News} />
-        <Route exact path="/Play" component={Play} />
+        ?
         <Route exact path="/WalletSetup" component={WalletSetup} />
         <Route exact path="/GetToken" component={GetToken} />
         <Route exact path="/CreateAsset" component={CreateAsset} />

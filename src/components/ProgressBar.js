@@ -8,7 +8,7 @@ const ProgressBar = () => (
         <Link to="/WalletSetup" className='child'>
           <div >
               
-              <p className='step-figure one py-2 rounded'>1</p>
+              <button className='step-figure one py-2 rounded'>1</button>
               {/* <p className='line mt-2'>----------------------------------</p> */}
               <p className='mt-3'>NEAR Wallet Set up</p>
           
@@ -20,7 +20,7 @@ const ProgressBar = () => (
         <Link to="/GetToken" className='child'>
           <div>
 
-              <p className='step-figure py-2 rounded'>2</p>
+              <p className='step-figure two py-2 rounded'>2</p>
               {/* <p className='line mt-2'>----------------------------------</p> */}
               <p className='mt-3'>Get Insignia Token</p>
             </div>

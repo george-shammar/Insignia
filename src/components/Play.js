@@ -9,7 +9,7 @@ const Play = () => (
       <div className='d-flex steps pt-5'>
 
         <div className='child'>
-          <p className='step-figure'>1</p>
+          <p className='step-figure py-2 rounded center'>1</p>
           <p>NEAR Wallet Set up</p>
         </div>
         

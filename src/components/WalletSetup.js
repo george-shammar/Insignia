@@ -21,15 +21,17 @@ const WalletSetup = () => (
           <p>Insignia lives on the NEAR protocol. NEAR Wallet is your ticket to our metaverse.</p>
         </div>
         
-          <div className='d-flex setup-navigation pt-5'>
-              <Link to="/" className='font-meridian back'><p> Back</p></Link>
-             <Link to="/GetToken" className='font-meridian back'><p>Next</p></Link> 
+          <div className='d-flex setup-navigation pt-5 mb-5'>
+              <Link to="/" className='font-meridian back'><p><img src={backwardArrow} className="arrow"/> Back</p></Link>
+             <Link to="/GetToken" className='font-meridian back'><p>Next <img src={forwardArrow} className="arrow"/></p></Link> 
              
           </div>
          </div>
         
           
             <Copyright />
+          
+            
         
      
   </div>

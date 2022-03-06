@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from './Nav';
 import { Link } from 'react-router-dom';
+import Copyright from './Copyright';
 import '../styles/Play.css';
 
 
@@ -44,7 +45,7 @@ const Play = () => (
         
         
       </div>
-     
+      <Copyright />
   </div>
   
 );

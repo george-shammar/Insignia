@@ -24,3 +24,9 @@
     width: 30%;
     margin: auto;
 }
+
+.arrows {
+    width: auto;
+    align-self: center;
+    justify-content: space-around;
+}

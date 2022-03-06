@@ -4,11 +4,11 @@ import '../styles/Play.css';
 
 const ProgressBar = () => (
   <div>
-    <div className='d-flex steps px-5 pt-5'>
-        <Link to="/WalletSetup">
-          <div className='child'>
+    <div className='d-flex steps px-5 pt-5 font-meridian'>
+        <Link to="/WalletSetup" className='child'>
+          <div >
               
-              <p className='step-figure py-2 rounded'>1</p>
+              <p className='step-figure one py-2 rounded'>1</p>
               {/* <p className='line mt-2'>----------------------------------</p> */}
               <p className='mt-3'>NEAR Wallet Set up</p>
           
@@ -17,7 +17,8 @@ const ProgressBar = () => (
             
 
           
-        <Link to="/GetToken"><div className='child'>
+        <Link to="/GetToken" className='child'>
+          <div>
 
               <p className='step-figure py-2 rounded'>2</p>
               {/* <p className='line mt-2'>----------------------------------</p> */}
@@ -26,14 +27,15 @@ const ProgressBar = () => (
         </Link>
           
 
-        <Link to="/CreateAsset"> <div className='child'>
+        <Link to="/CreateAsset" className='child'> <div>
               <p className='step-figure py-2 rounded'>3</p>
               {/* <p className='line mt-2'>----------------------------------</p> */}
               <p className='mt-3'>Creat Game Asset</p>
             </div>
         </Link>
             
-        <Link to="/DownloadGame"> <div className='child'>
+        <Link to="/DownloadGame" className='child'> 
+            <div>
               <p className='step-figure py-2 rounded'>4</p>
               <p className='mt-3'>Download & Play</p> 
             </div>

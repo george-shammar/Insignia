@@ -8,25 +8,32 @@
 }
 
 .steps {
-    width: auto;
+    width: 50%;
     justify-content: space-around;
     align-content: center;
     align-self: center;
+    margin: auto;
 }
 
 .child {
     text-align: center;
     cursor: pointer;
+    color: black;
 }
 
 .step-figure {
-    background-color: rgb(242, 224, 200);
+    background-color: grey;
     width: 30%;
     margin: auto;
 }
 
-.arrows {
-    width: auto;
-    align-self: center;
+.setup-navigation {
+    width: 80%;
+    align-items: center;
     justify-content: space-around;
+    margin: auto;
+}
+
+.back {
+    color: black;
 }

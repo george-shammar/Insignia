@@ -11,7 +11,11 @@ const Copyright = () => {
                 <h6 className="white font">Copyright &copy; 2022 - All Rights Reserved: </h6>
                 <p className="meridian-font white px-2">Insignia</p>
             </div>
-            <img src={discord} />
+            <div className='connect-link d-flex'>
+                <img src={discord} className='connect'/>
+                <img src={twitter} className='connect'/>
+            </div>
+            
             <div>
                 <p className="meridian-font white"> Powered by ChainGates Corp.</p>
             </div>

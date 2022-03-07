@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import forwardArrow from '../assets/right-arrows.png';
 import backwardArrow from '../assets/left-arrow.png';
 
+
 const DownloadGame = () => (
   <div>
       <div className='play'>
@@ -34,8 +35,9 @@ const DownloadGame = () => (
              
             </div>
             
-            
+           
         </div>
+       
         
           <div className='d-flex setup-navigation pt-5 mb-5'>
               <Link to="GetToken" className='font-meridian back'><p><img src={backwardArrow} className="arrow"/> Back</p></Link>

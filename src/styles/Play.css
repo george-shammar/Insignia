@@ -42,6 +42,10 @@
     width: 20px;
 }
 
+.line {
+    width: auto;
+}
+
 button:active {
     background-color: #bd8d4c;
 }

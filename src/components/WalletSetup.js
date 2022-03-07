@@ -18,12 +18,12 @@ const WalletSetup = () => (
         </div>
         <div className='font-meridian near-wallet pt-5'>
           <h3>Create your NEAR wallet</h3>
-          <p>Insignia lives on the NEAR protocol. NEAR Wallet is your ticket to our metaverse.</p>
+          <p className='gold'>Insignia lives on the NEAR protocol. NEAR Wallet is your ticket to our metaverse.</p>
         </div>
 
 
 
-        <div className="border wallet-space py-5 shadow-lg">
+        <div className="border wallet-space py-5 mt-5 shadow-lg">
             <article className="px-2">
                         <h6 className="bold pb-3 action font-meridian">WALLET SETUP</h6>
                         <p>

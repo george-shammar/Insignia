@@ -23,9 +23,8 @@ const WalletSetup = () => (
 
 
 
-        <div className="border rounded card-space shadow-lg">
+        <div className="border wallet-space py-5 shadow-lg">
             <article className="px-2">
-                        {/* <i className="fas fa-door-open pink py-4 icon-size action"></i> */}
                         <h6 className="bold pb-3 action font-meridian">WALLET SETUP</h6>
                         <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

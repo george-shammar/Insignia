@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+.wallet-space {
+  margin: auto;
+  text-align: center;
+  max-width: 60%;
+  background-color: rgba(172, 172, 172, 0.432);
+  height: 500px;
+  border-radius: 1.5%;
+}
+
 /* .one {
   background-color: #bd8d4c !important;
   width: 30%;

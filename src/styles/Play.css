@@ -46,6 +46,6 @@
     width: auto;
 }
 
-button:active {
-    background-color: #bd8d4c;
+.platform {
+    height: 50vh;
 }

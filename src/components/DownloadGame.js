@@ -20,7 +20,7 @@ const DownloadGame = () => (
           <p className='gold'>Select your preferred platform below.... Have Fun!!</p>
          
         </div>
-        <div>
+        <div className='platform'>
           <div className='d-flex'>
             <p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2">PC</p>
             <p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2">Android</p>

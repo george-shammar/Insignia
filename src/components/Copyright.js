@@ -1,4 +1,7 @@
+import discord from '../assets/discord-icon.png';
+import twitter from '../assets/twitter.png';
 import "../styles/Copyright.css"
+
 
 const Copyright = () => {
     return (
@@ -8,6 +11,7 @@ const Copyright = () => {
                 <h6 className="white font">Copyright &copy; 2022 - All Rights Reserved: </h6>
                 <p className="meridian-font white px-2">Insignia</p>
             </div>
+            <img src={discord} />
             <div>
                 <p className="meridian-font white"> Powered by ChainGates Corp.</p>
             </div>

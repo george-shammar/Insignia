@@ -14,7 +14,62 @@ const GetToken = () => (
           <Nav />
         </div>
         <div>
-          <ProgressBar />
+          {/* <ProgressBar /> */}
+
+
+
+
+
+
+          <div className='d-flex steps px-5 pt-5 font-meridian'>
+        <Link to="/WalletSetup" className='child'>
+          <div >
+              <p className='step-figure py-2 rounded'>1</p>
+              
+              <p className='mt-3'>NEAR Wallet Set up</p>
+          
+          </div>
+        </Link>
+            
+        <p className='line'>__________</p>
+          
+        <Link to="/GetToken" className='child'>
+          <div>
+
+              <p className='step-figure hightlighted2 py-2 rounded'>2</p>
+              <p className='mt-3'>Get Insignia Token</p>
+            </div>
+        </Link>
+          
+        <p className='line'>__________</p>
+
+        <Link to="/CreateAsset" className='child'> <div>
+              <p className='step-figure py-2 rounded'>3</p>
+              <p className='mt-3'>Creat Game Asset</p>
+            </div>
+        </Link>
+
+        <p className='line'>__________</p>
+
+        <Link to="/DownloadGame" className='child'> 
+            <div>
+              <p className='step-figure py-2 rounded'>4</p>
+              <p className='mt-3'>Download & Play</p> 
+            </div>
+        </Link>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
         <div className='font-meridian near-wallet pt-5'>
         <h3>Get Insignia Token</h3>

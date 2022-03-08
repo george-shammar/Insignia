@@ -48,3 +48,8 @@
 .platform {
     height: 50vh;
 }
+
+.hightlighted1, .hightlighted2, .highlighted3, .highlighted4 {
+  background-color: black;
+  color: white;
+}

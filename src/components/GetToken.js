@@ -1,11 +1,10 @@
 import React from 'react';
 import Nav from "./Nav";
 import Copyright from './Copyright';
-import ProgressBar from './ProgressBar';
 import { Link } from 'react-router-dom';
 import forwardArrow from '../assets/right-arrows.png';
 import backwardArrow from '../assets/left-arrow.png';
-import '../styles/GetToken.css';
+import '../styles/Play.css';
 
 const GetToken = () => (
   <div>

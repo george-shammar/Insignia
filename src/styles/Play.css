@@ -1,7 +1,6 @@
 .play {
     background-image: url('../assets/background-white.jpg');
     background-color: #f2e0c8;
-    /* height: 100vh; */
     width: auto;
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,3 +48,12 @@
 .platform {
     height: 50vh;
 }
+
+/* .step-figure:hover {
+    background-color: black;
+}
+
+.hightlighted {
+    background-color: black;
+    color: white;
+} */

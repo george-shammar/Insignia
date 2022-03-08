@@ -7,7 +7,7 @@ const ProgressBar = () => (
     <div className='d-flex steps px-5 pt-5 font-meridian'>
         <Link to="/WalletSetup" className='child'>
           <div >
-              <p className='step-figure py-2 rounded'>1</p>
+              <p className='step-figure hightlighted py-2 rounded'>1</p>
               
               <p className='mt-3'>NEAR Wallet Set up</p>
           

@@ -11,10 +11,10 @@ const FirstComponent = () => (
   <div>
   <div className="front animate__animated animate__fadeIn">
     <video autoplay muted loop id="myVideo" className="box">
-      <source src={firstVideo} type="video/mp4" />
+      <source src="../assets/firstVideo.mp4" type="video/mp4" />
     </video>
-      <div className="box overlay">
-        <p className="title-one white font-medieval">First</p>
+      <div className="overlay">
+        <p className="title-one white font-medieval">INSIGNIA</p>
         <p className="title-two">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
       </div>
       

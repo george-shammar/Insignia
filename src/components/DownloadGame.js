@@ -67,7 +67,7 @@ const DownloadGame = () => (
 
         </div>
         <div className='font-meridian near-wallet pt-5'>
-        <h3>Download Insignia</h3>
+        <h3>Get Insignia</h3>
           <p className='gold'>Select your preferred platform below.... Have Fun!!</p>
          
         </div>

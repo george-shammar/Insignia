@@ -39,9 +39,9 @@ const FirstComponent = () => {
 const SecondComponent = () => (
   <div>
       <div className="frame animate__animated animate__fadeIn second">
-      <video autoPlay="autoplay"  muted loop id="myVideo" >
+      {/* <video autoPlay="autoplay"  muted loop id="myVideo" >
         <source src={secondVideo}  type="video/mp4" />
-      </video>
+      </video> */}
 
       <div className="overlay">
         <p className="title-three white font-medieval">Second</p>

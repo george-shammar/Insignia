@@ -7,23 +7,31 @@ import firstVideo from '../assets/firstVideo.mp4';
 const FIRST_PAGE = '5_SECONDS';
 const SECOND_PAGE = '15_SECONDS';
 
-const FirstComponent = () => (
-  <div>
-  <div className="front animate__animated animate__fadeIn">
-    <video autoplay muted loop id="myVideo" className="box">
-      <source src="../assets/firstVideo.mp4" type="video/mp4" />
-    </video>
-      <div className="overlay">
-        <p className="title-one white font-medieval">INSIGNIA</p>
-        <p className="title-two">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-      </div>
-      
-  </div>
+
+const FirstComponent = () => {
+  
+  return (
     <div>
-      <Link to="/Whitepaper"><p className="font-meridian white enter rounded-pill mt-3 py-2 center">Whitepaper</p></Link>
+    <div className="front animate__animated animate__fadeIn">
+      <video autoPlay="autoplay"  muted loop id="myVideo" >
+        <source src={firstVideo}  type="video/mp4" />
+      </video>
+      
+  
+  
+        <div className="overlay">
+          <p className="title-one white font-medieval">INSIGNIA</p>
+          <p className="title-two">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+        
     </div>
-  </div>
-);
+      <div>
+        <Link to="/Whitepaper"><p className="font-meridian white enter rounded-pill mt-3 py-2 center">Whitepaper</p></Link>
+      </div>
+    </div>
+  )
+ 
+};
 
 const SecondComponent = () => (
   <div>
@@ -44,6 +52,7 @@ const SecondComponent = () => (
 );
 
 class Home extends Component {
+
   state = {
     currentPage: FIRST_PAGE
   };
@@ -77,6 +86,3 @@ class Home extends Component {
 }
 
 export default Home;
-
-
-// 6160fdd435e4c5d0758bb612a84b6a952e672ae5

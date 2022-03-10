@@ -74,7 +74,6 @@
 
 #myVideo {
   position: absolute;
-  
   /* right: 0;
   bottom: 0; */
   width: 100%;
@@ -83,23 +82,13 @@
 }
 
 .second {
-
   height: 100vh;
-  /* background-image: url("../assets/edited-rider2.jpg"); */
-    /* height: 100vh; */
-    /* background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: 100%; */
-    /* width: 100%; */
+
 }
 
 .white {
   color: white;
 }
-
-/* .frame {
-  height: 520px;
-} */
 
 
 .animate__animated.animate__fadeIn {

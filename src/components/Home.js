@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import "../styles/Home.css"
 import 'animate.css';
 import firstVideo from '../assets/firstVideo.mp4';
+import secondVideo from '../assets/runningwarriors.mp4';
 
 const FIRST_PAGE = '5_SECONDS';
 const SECOND_PAGE = '15_SECONDS';
@@ -20,13 +21,15 @@ const FirstComponent = () => {
   
   
         <div className="overlay">
-          <p className="title-one white font-medieval">INSIGNIA</p>
-          <p className="title-two">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          <h1 className="title-one white font-medieval">INSIGNIA</h1>
+          <h2 className="title-two white">THE MILITARY STRATEGY GAME THAT PAYS TO PLAY</h2>
         </div>
         
     </div>
       <div>
-        <Link to="/Whitepaper"><p className="font-meridian white enter rounded-pill mt-3 py-2 center">Whitepaper</p></Link>
+        <a href="https://tasmarakalamazoo.gitbook.io/whitepaper/" target="_blank">
+          <p className="font-meridian white enter rounded-pill mt-3 py-2 center">Whitepaper</p>
+        </a>
       </div>
     </div>
   )
@@ -36,15 +39,21 @@ const FirstComponent = () => {
 const SecondComponent = () => (
   <div>
       <div className="frame animate__animated animate__fadeIn second">
-      <div>
+      <video autoPlay="autoplay"  muted loop id="myVideo" >
+        <source src={secondVideo}  type="video/mp4" />
+      </video>
+
+      <div className="overlay">
         <p className="title-three white font-medieval">Second</p>
-        <p className="title-two">A new world of Play-To-Earn.</p>
+        <p className="title-two white">A new world of Play-To-Earn.</p>
       </div>
       
     
       </div>
       <div>
-        <Link to="/Whitepaper"><p className="font-meridian white enter rounded-pill mt-3 py-2 center">Whitepaper</p></Link>
+        <a href="https://tasmarakalamazoo.gitbook.io/whitepaper/" target="_blank">
+          <p className="font-meridian white enter rounded-pill mt-3 py-2 center">Whitepaper</p>
+        </a>
       </div>
   </div>
   

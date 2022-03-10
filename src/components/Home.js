@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import "../styles/Home.css"
 import 'animate.css';
+import firstVideo from '../assets/firstVideo.mp4';
 
 const FIRST_PAGE = '5_SECONDS';
 const SECOND_PAGE = '15_SECONDS';
@@ -9,6 +10,9 @@ const SECOND_PAGE = '15_SECONDS';
 const FirstComponent = () => (
   <div>
   <div className="front animate__animated animate__fadeIn">
+    <video autoplay muted loop id="myVideo">
+      <source src={firstVideo} type="video/mp4" />
+    </video>
       {/* <div>
         <p className="title-one white font-medieval">First</p>
         <p className="title-two">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>

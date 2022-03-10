@@ -10,18 +10,18 @@ const SECOND_PAGE = '15_SECONDS';
 const FirstComponent = () => (
   <div>
   <div className="front animate__animated animate__fadeIn">
-    <video autoplay muted loop id="myVideo">
+    <video autoplay muted loop id="myVideo" className="box">
       <source src={firstVideo} type="video/mp4" />
     </video>
-      {/* <div>
+      <div className="box overlay">
         <p className="title-one white font-medieval">First</p>
         <p className="title-two">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-      </div> */}
+      </div>
       
   </div>
-    {/* <div>
+    <div>
       <Link to="/Whitepaper"><p className="font-meridian white enter rounded-pill mt-3 py-2 center">Whitepaper</p></Link>
-    </div> */}
+    </div>
   </div>
 );
 
@@ -36,7 +36,6 @@ const SecondComponent = () => (
     
       </div>
       <div>
-    
         <Link to="/Whitepaper"><p className="font-meridian white enter rounded-pill mt-3 py-2 center">Whitepaper</p></Link>
       </div>
   </div>

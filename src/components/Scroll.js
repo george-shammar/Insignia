@@ -16,8 +16,8 @@ const Scroll = () => {
             <p className='get-started font-roboto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <div className="d-flex py-5 px-5 justify-content-between font-roboto">
             <div className="border rounded card-space shadow-lg">
-            <article className="px-2">
-                        {/* <i className="fas fa-door-open pink py-4 icon-size action"></i> */}
+                    <article className="px-2">
+                        <i className="fas fa-door-open pink py-4 icon-size action"></i>
                         <img src={castle} className="py-4 castle action" />
                         <h6 className="bold pb-3 action font-meridian">WALLET SETUP</h6>
                         <p>

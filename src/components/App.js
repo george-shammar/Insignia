@@ -18,9 +18,10 @@ function App() {
         <Nav />
         <Home />
         <Trailer />
-        <Join />
-        <Scroll />
         <Event />
+        
+        <Scroll />
+        <Join />
         <Community />
         {/* <Next /> */}
         <Footer />

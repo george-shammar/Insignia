@@ -9,16 +9,15 @@ const SECOND_PAGE = '15_SECONDS';
 const FirstComponent = () => (
   <div>
   <div className="front animate__animated animate__fadeIn">
-      <div>
+      {/* <div>
         <p className="title-one white font-medieval">First</p>
         <p className="title-two">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-      </div>
+      </div> */}
       
   </div>
-  <div>
-    
+    {/* <div>
       <Link to="/Whitepaper"><p className="font-meridian white enter rounded-pill mt-3 py-2 center">Whitepaper</p></Link>
-    </div>
+    </div> */}
   </div>
 );
 

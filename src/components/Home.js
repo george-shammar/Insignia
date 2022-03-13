@@ -27,7 +27,7 @@ const FirstComponent = () => {
         
     </div>
       <div>
-        <a href="https://tasmarakalamazoo.gitbook.io/whitepaper/" target="_blank">
+        <a href="https://getinsignia.gitbook.io/whitepaper/" target="_blank">
           <p className="font-meridian white enter rounded-pill mt-3 py-2 center">Whitepaper</p>
         </a>
       </div>
@@ -51,7 +51,7 @@ const SecondComponent = () => (
     
       </div>
       <div>
-        <a href="https://tasmarakalamazoo.gitbook.io/whitepaper/" target="_blank">
+        <a href="https://getinsignia.gitbook.io/whitepaper/" target="_blank">
           <p className="font-meridian white enter rounded-pill mt-3 py-2 center">Whitepaper</p>
         </a>
       </div>

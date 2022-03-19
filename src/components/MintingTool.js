@@ -40,7 +40,7 @@ const MintingTool = (props) => {
             style={{ width: "50vw" }}
           >
                           <div>
-                              <p className="create-scroll white font-meridian rounded-pill mt-5 py-2">Creat Asset</p>
+                              <p className="create-scroll white font-meridian rounded-pill my-3 py-2">Creat Asset</p>
                           </div>
           </div>
         </div>
@@ -51,7 +51,7 @@ const MintingTool = (props) => {
               <p style={{ textAlign: "center" }}>
                 You have an Insignia Game NFT. {" "}
                 <a href={"https://wallet.testnet.near.org/?tab=collectibles"}>
-                  Click to check it out!
+                  Check it out under collectibles in your wallet!
                 </a>
                 :)
               </p>

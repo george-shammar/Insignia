@@ -63,3 +63,8 @@
     width: 20%;
     margin: auto;
 }
+
+.sign-in {
+    cursor: pointer;
+    width: 40%;
+}

@@ -42,7 +42,7 @@ const DownloadGame = () => (
 
         <Link to="/CreateAsset" className='child'> <div>
               <p className='step-figure py-2 rounded'>3</p>
-              <p className='mt-3'>Creat Game Asset</p>
+              <p className='mt-3'>Create Game Asset</p>
             </div>
         </Link>
 

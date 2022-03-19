@@ -77,7 +77,7 @@ const CreateAsset = () => {
 
                       <Link to="/CreateAsset" className='child'> <div>
                             <p className='step-figure highlighted3 py-2 rounded'>3</p>
-                            <p className='mt-3'>Creat Game Asset</p>
+                            <p className='mt-3'>Create Game Asset</p>
                           </div>
                       </Link>
 
@@ -106,23 +106,21 @@ const CreateAsset = () => {
                       <div className='font-meridian near-wallet pt-5'>
                       <h3>Create Game Asset</h3>
                         <p>Select an asset category below and mint one or purchase one in the marketplace to start playing</p>
-                      
-                      
                       </div>
 
 
 
                       <div className="border wallet-space py-5 mt-5 shadow-lg">
                           <article className="px-2">
-                                      <h6 className="bold pb-3 action font-meridian">Select Game Asset</h6>
-                                      <p className='gold'>Please refer to the "Getting Started" section to understand the type of asset you need to start playing</p>
+                                      <h6 className="bold pb-3 action font-meridian">Mint A Unique Character</h6>
+                                      <p className='gold'></p>
                           </article>
 
                           <div>
-                            <div onClick={window.walletConnection.isSignedIn() ? logout : login}>
+                            <div className="sign-in border p-2 center font-meridian" onClick={window.walletConnection.isSignedIn() ? logout : login}>
                             
                               {window.walletConnection.isSignedIn()
-                                ? (<p>Connected Wallet: {window.accountId}</p>)
+                                ? (<p>Connected Wallet: <span>{window.accountId}</span></p>)
                                 : "Connect Wallet"}
                             </div>{" "}
                           </div>

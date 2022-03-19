@@ -7,11 +7,14 @@ import forwardArrow from '../assets/right-arrows.png';
 import backwardArrow from '../assets/left-arrow.png';
 import { initContract, login, logout } from '../utils';
 // import { login, logout } from "./utils";
+import getConfig from "../config";
 
-import getConfig from "./config";
 const { networkId } = getConfig(process.env.NODE_ENV || "development");
 
-const CreateAsset = () => (
+const CreateAsset = () => {
+  const [userHasNFT, setuserHasNFT] = useState(false);
+
+  return(
   <div>
       <div className='play'>
         <div>
@@ -111,6 +114,7 @@ const CreateAsset = () => (
 
         <Copyright />
   </div>
-);
+  )
+};
 
 export default CreateAsset;

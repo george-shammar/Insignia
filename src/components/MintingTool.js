@@ -39,7 +39,9 @@ const MintingTool = (props) => {
             onClick={mintNFT}
             style={{ width: "50vw" }}
           >
-            Mint NFT
+                          <div>
+                              <p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2">Creat Asset</p>
+                          </div>
           </div>
         </div>
         <div className='d-flex justify-content-center'>

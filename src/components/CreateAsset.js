@@ -120,10 +120,10 @@ const CreateAsset = () => {
 
                           <div>
                             <div onClick={window.walletConnection.isSignedIn() ? logout : login}>
-                            <p>Connected as</p>
+                            
                               {window.walletConnection.isSignedIn()
-                              
                                 ? window.accountId
+                                
                                 : "Connect Wallet"}
                             </div>{" "}
                           </div>
@@ -133,9 +133,7 @@ const CreateAsset = () => {
                           </div>
 
 
-                          <div>
-                              <p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2">Creat Asset</p>
-                          </div>
+                          
                       </div>
 
 

@@ -123,7 +123,6 @@ const CreateAsset = () => {
                             
                               {window.walletConnection.isSignedIn()
                                 ? (<p>Connected Wallet: {window.accountId}</p>)
-                                
                                 : "Connect Wallet"}
                             </div>{" "}
                           </div>

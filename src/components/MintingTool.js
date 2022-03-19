@@ -47,9 +47,9 @@ const MintingTool = (props) => {
           {props.userNFTStatus ? (
             <div variant='danger' style={{ marginTop: "2vh" }}>
               <p style={{ textAlign: "center" }}>
-                bruh/sis.... You have an NFT already. You can see it{" "}
+                You have an Insignia Game character! {" "}
                 <a href={"https://wallet.testnet.near.org/?tab=collectibles"}>
-                  here!
+                  Click to check it out!
                 </a>
                 :)
               </p>

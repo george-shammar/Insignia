@@ -9,6 +9,7 @@ import { login, logout } from '../utils';
 // import { login, logout } from "./utils";
 import getConfig from "../config";
 
+
 const { networkId } = getConfig(process.env.NODE_ENV || "development");
 
 const CreateAsset = () => {

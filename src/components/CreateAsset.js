@@ -8,6 +8,7 @@ import backwardArrow from '../assets/left-arrow.png';
 import { login, logout } from '../utils';
 // import { login, logout } from "./utils";
 import getConfig from "../config";
+import MintingTool from "./MintingTool";
 
 
 const { networkId } = getConfig(process.env.NODE_ENV || "development");
@@ -127,9 +128,13 @@ const CreateAsset = () => {
                             </div>{" "}
                           </div>
 
+                          <div>
+                              <MintingTool userNFTStatus={userHasNFT} />
+                          </div>
+
 
                           <div>
-                                  <p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2">Creat Asset</p>
+                              <p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2">Creat Asset</p>
                           </div>
                       </div>
 
@@ -138,7 +143,7 @@ const CreateAsset = () => {
 
 
                       <div>
-                                  <Link to="/Marketplace"><p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2">Marketplace</p></Link>
+                          <Link to="/Marketplace"><p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2">Marketplace</p></Link>
                       </div>
                       
                         <div className='d-flex setup-navigation pt-5 mb-5'>

@@ -53,3 +53,13 @@
   background-color: black;
   color: white;
 }
+
+.create-scroll {
+    cursor: pointer;
+    border: solid;
+    border-color: #bd8d4c;
+    background-color: #bd8d4c;
+    text-align: center;
+    width: 20%;
+    margin: auto;
+}

@@ -5,7 +5,7 @@ import Copyright from './Copyright';
 import { Link } from 'react-router-dom';
 import forwardArrow from '../assets/right-arrows.png';
 import backwardArrow from '../assets/left-arrow.png';
-import { initContract, login, logout } from '../utils';
+import { login, logout } from '../utils';
 // import { login, logout } from "./utils";
 import getConfig from "../config";
 

@@ -116,6 +116,16 @@ const CreateAsset = () => {
                                       <p className='gold'>Please refer to the "Getting Started" section to understand the type of asset you need to start playing</p>
                           </article>
 
+                          <div>
+                            <div
+                              onClick={window.walletConnection.isSignedIn() ? logout : login}
+                            >
+                              {window.walletConnection.isSignedIn()
+                                ? window.accountId
+                                : "Login"}
+                            </div>{" "}
+                          </div>
+
 
                           <div>
                                   <p className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2">Creat Asset</p>

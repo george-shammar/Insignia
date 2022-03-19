@@ -25,14 +25,14 @@ const MintingTool = (props) => {
   return (
     <div>
       <div>
-        <div>
+        {/* <div>
           <p>
             Step 2: After you have logged in, hit this button to mint your "Go
             Team" Token and go your{" "}
             <a href='https://wallet.testnet.near.org/'> wallet</a> and see your
             NFT
           </p>
-        </div>
+        </div> */}
         <div className='d-flex justify-content-center'>
           <div
             disabled={props.userNFTStatus || window.accountId === ""}

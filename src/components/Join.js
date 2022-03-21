@@ -11,10 +11,10 @@ const Join = () => {
       <p className="white join-text font-meridian">Join the conversation on our social media channels.</p>
       
             <div className='soc d-flex'>
-                <a href="https://discord.gg/A4xfZENW2Z" target="_blank"><img src={discord} className=' join-soc'/></a>
-                <a href="https://twitter.com/Insignia_verse?s=03" target="_blank"><img src={twitter} className='join-soc'/></a>
+                <a href="https://discord.gg/A4xfZENW2Z" target="_blank"  rel="noreferrer"><img src={discord} alt="" className=' join-soc'/></a>
+                <a href="https://twitter.com/Insignia_verse?s=03" target="_blank"  rel="noreferrer"><img src={twitter} alt="" className='join-soc'/></a>
             </div>
-        <img src={join} className="join-image"/>
+        <img src={join} alt="" className="join-image"/>
       
       
       

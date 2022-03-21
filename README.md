@@ -91,7 +91,10 @@ Currently, a very limited edition of the Free-To-Play model of the game is avail
 # Game Overview
 
 ## The basics
-### Cities
+
+### World Of Chaos
+
+#### Cities
 World of Chaos is made up of three hundred (300) real-world ancient cities. Each city is a unique NFT. A typical city is made up of a Commander, an Army with a varied number of battalion (A battalion consists of 700 soldiers). When you mint a city, you get the following:
 
 - A medieval city and a 3 minutes video tour of your city with a short military show of force. It's architecture, people, and commerce.
@@ -104,7 +107,7 @@ The bad news is that there are too much incentives for other cities and Mercenar
 
 You win or loose when your city's symbol of insignia is captured by the other army or otherwise. The World of Chaos is ultimately an open, virtual, and explorable meta-verse.
 
-### Mercenaries
+#### Mercenaries
 These are armies for hire - 45 in total. Each mercenary unit is a unique NFT with an unknown number of battalions before minting. Cities with insufficient armies can hire mercenaries to repel an attack or launch an attack. When you mint a mercenary unit you get the following.
 
 - An army with an unknown number of battalions.
@@ -113,6 +116,13 @@ These are armies for hire - 45 in total. Each mercenary unit is a unique NFT wit
 
 As an owner of a mercenary unit, you can attack a city to earn the balance of the city's treasury or rent out your army to another city for a fee paid upfront and not dependent on the outcome of the renter's war.
 
+#### Fighting Pits
+The fighting pit involves one-on-one combat in an arena of cheering crowds and real-world viewers. A fighting season takes a maximum of 7 days or less (depending on the number of participants). Each arena holds between 2, 4, and 8 fighters in each pool. One fighter emerges as the winner from each pool and faces the winner from another pool in the tournament until we have one final winner.
+
+Peering is done randomly and the reward mechanism also utilizes a no-loss mechanism. To fight in the tournament, the following steps need to be taken:
+
+- Mint a fighter (unique NFT) to play. If you missed out during the initial minting, you may trade in the Marketplace. Insignia also provides the opportunity to rent a fighter from NFT owners who choose not to participate in a fighting season.
+- Deposit Insignia Tokens to enter the tournament. These tokens are withdrawable no matter the outcome of the tournament, win or lose. Hence, the no-loss mechanism.
 
 
 ## Developer

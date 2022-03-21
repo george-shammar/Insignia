@@ -18,13 +18,14 @@ Insignia is built on top of [NEAR Protocol](https://near.org/) and game assets a
 - IPFS (Decentralized storage)
 - Rust
 - near-api-js
-- HTML
-- CSS
-- Bootstrap
 
 ### Web Application
 - React
 - Javascript
+- HTML
+- CSS
+- Bootstrap
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -28,3 +28,12 @@
     font-weight: 700;
     line-height: 1.06;
 }
+
+.soc {
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.join-soc {
+    width: 25%;
+}

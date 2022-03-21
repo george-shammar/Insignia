@@ -69,3 +69,8 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ## Usage
+
+Upon launching the application, go to "Play Now".
+
+Step 1:
+- 

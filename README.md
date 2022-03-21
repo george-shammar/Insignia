@@ -72,5 +72,5 @@ You may also see any lint errors in the console.
 
 Upon launching the application, go to "Play Now".
 
-Step 1:
-- 
+### Step 1: NEAR Wallet Set-up
+- Insignia lives on the NEAR protocol. NEAR Wallet is your ticket to our metaverse. For first time NEAR users, click "Get NEAR Wallet", otherwise, proceed to the next tab.

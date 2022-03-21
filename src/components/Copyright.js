@@ -12,8 +12,8 @@ const Copyright = () => {
                 <p className="meridian-font white px-2">Insignia</p>
             </div>
             <div className='connect-link d-flex'>
-                <a href="https://discord.gg/A4xfZENW2Z" target="_blank"><img src={discord} className='connect mx-2'/></a>
-                <a href="https://twitter.com/Insignia_verse?s=03" target="_blank"><img src={twitter} className='connect'/></a>
+                <a href="https://discord.gg/A4xfZENW2Z" target="_blank" rel="noreferrer"><img src={discord} alt="" className='connect mx-2'/></a>
+                <a href="https://twitter.com/Insignia_verse?s=03" target="_blank" rel="noreferrer"><img src={twitter} alt="" className='connect'/></a>
             </div>
             
             <div>

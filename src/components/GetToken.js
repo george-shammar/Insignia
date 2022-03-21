@@ -89,7 +89,7 @@ const GetToken = () => (
             {/* <img src={near} className="near-logo"/> */}
 
             <div>
-                    <a href="https://wallet.near.org/" target="_blank" className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2 px-5">Fund Wallet</a>
+                    <a href="https://wallet.near.org/" target="_blank"  rel="noreferrer" className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2 px-5">Fund Wallet</a>
             </div>
         </div>
 
@@ -97,8 +97,8 @@ const GetToken = () => (
 
         
           <div className='d-flex setup-navigation pt-5 mb-5'>
-              <Link to="WalletSetup" className='font-meridian back'><p><img src={backwardArrow} className="arrow"/> Back</p></Link>
-             <Link to="/CreateAsset" className='font-meridian back'><p>Next <img src={forwardArrow} className="arrow"/></p></Link> 
+              <Link to="WalletSetup" className='font-meridian back'><p><img src={backwardArrow} alt="" className="arrow"/> Back</p></Link>
+             <Link to="/CreateAsset" className='font-meridian back'><p>Next <img src={forwardArrow} alt="" className="arrow"/></p></Link> 
              
           </div>
          </div>

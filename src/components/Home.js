@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from 'react-router-dom';
 import "../styles/Home.css"
 import 'animate.css';
 import firstVideo from '../assets/firstVideo.mp4';
@@ -27,7 +26,7 @@ const FirstComponent = () => {
         
     </div>
       <div>
-        <a href="https://getinsignia.gitbook.io/whitepaper/" target="_blank">
+        <a href="https://getinsignia.gitbook.io/whitepaper/" target="_blank"  rel="noreferrer">
           <p className="font-meridian white enter rounded-pill mt-3 py-2 center">Whitepaper</p>
         </a>
       </div>
@@ -51,7 +50,7 @@ const SecondComponent = () => (
     
       </div>
       <div>
-        <a href="https://getinsignia.gitbook.io/whitepaper/" target="_blank">
+        <a href="https://getinsignia.gitbook.io/whitepaper/" target="_blank"  rel="noreferrer">
           <p className="font-meridian white enter rounded-pill mt-3 py-2 center">Whitepaper</p>
         </a>
       </div>

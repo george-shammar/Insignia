@@ -97,10 +97,10 @@ const WalletSetup = () => (
                         </p>
             </article>
 
-            <img src={near} className="near-logo"/>
+            <img src={near} alt="" className="near-logo"/>
 
             <div>
-                    <a href="https://wallet.near.org/" target="_blank" className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2 px-5">Get NEAR Wallet</a>
+                    <a href="https://wallet.near.org/" target="_blank"  rel="noreferrer" className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2 px-5">Get NEAR Wallet</a>
             </div>
         </div>
 

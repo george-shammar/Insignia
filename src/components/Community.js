@@ -7,7 +7,7 @@ const Community = () => {
              <img src={bottom} alt="" className="rough"/>
         
             <div className="community">
-                
+            <h6 className="topic py-5 font-medieval">Game Features</h6>
             </div>
             <img src={top} alt="" className="rough"/>
         </div>

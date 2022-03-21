@@ -84,3 +84,6 @@ Upon launching the application, go to "Play Now".
 
 ### Step 3b: Marketplace
 - An alternative is to purchase a Game Asset in the Marketplace.
+
+### Step 4: Download and Play
+Currently, a very limited edition of the Free-To-Play model of the game is available on PC. Android and IOS release is coming soon.

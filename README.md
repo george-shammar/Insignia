@@ -36,21 +36,33 @@ Insignia is built on top of [NEAR Protocol](https://near.org/) and game assets a
 
 To run a local copy of this application, follow the steps below:
 
-- Go to the "Code" section of this repository and press the green button that says "Code". Copy the URL or the SSH key.
+- Go to the "Code" section of this repository and press the green button that says "Code". Copy the URL or the SSH.
 - Go to the terminal and enter:
 ```
 git clone https://github.com/george-shammar/Insignia.git
 ```
+The URL or SSH are the links copied from the step above.
+
+- If you don't have git installed, you can download this project and unzip it.
+- Change directory into the folder the application is saved.
+```
+cd directory
+```
+Directory is the name of your folder.
+
+- Once you have the local copy in your desired folder, go back to your terminal and run:
+```
+npm install
+```
+This command installs all the dependencies of the application.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
+- To start the application, run :
+```
+npm start
+``` 
+This command runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\

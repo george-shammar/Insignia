@@ -17,7 +17,7 @@ function App() {
       <div className="app">
         <Nav />
         <Home />
-        <Trailer />
+        {/* <Trailer /> */}
         <Event />
         
         <Scroll />

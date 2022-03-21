@@ -3,7 +3,6 @@ import topdark from '../assets/top_dark.png';
 import bottomdark from '../assets/bottom_dark.png';
 import { Link } from 'react-router-dom';
 import '../styles/Scroll.css';
-import castle from "../assets/castle.png";
 
 const Scroll = () => {
   return(
@@ -13,15 +12,14 @@ const Scroll = () => {
      
       <section>
             <h6 className="topic py-5 font-medieval">GETTING STARTED</h6>
-            <p className='get-started font-roboto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p className='get-started font-roboto'>Click "Play Now" to follow the steps below and get started with Insignia</p>
             <div className="d-flex py-5 px-5 justify-content-between font-roboto">
             <div className="border rounded card-space shadow-lg">
                     <article className="px-2">
                         <i className="fas fa-door-open pink py-4 icon-size action"></i>
-                        <img src={castle} className="py-4 castle action" />
                         <h6 className="bold pb-3 action font-meridian">WALLET SETUP</h6>
                         <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Insignia lives on the NEAR protocol. NEAR Wallet is your ticket to our metaverse. For first time NEAR users, click "Get NEAR Wallet", otherwise, proceed to the next tab.
                         </p>
                     </article>
                 </div>

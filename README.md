@@ -108,6 +108,10 @@ You win or loose when your city's symbol of insignia is captured by the other ar
 These are armies for hire - 45 in total. Each mercenary unit is a unique NFT with an unknown number of battalions before minting. Cities with insufficient armies can hire mercenaries to repel an attack or launch an attack. When you mint a mercenary unit you get the following.
 
 - An army with an unknown number of battalions.
+- A commander.
+- An insignia.
+
+As an owner of a mercenary unit, you can attack a city to earn the balance of the city's treasury or rent out your army to another city for a fee paid upfront and not dependent on the outcome of the renter's war.
 
 
 

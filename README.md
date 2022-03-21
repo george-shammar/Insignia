@@ -5,6 +5,8 @@ Insignia is a 3D military strategy blockchain game application. A multi-player p
 
 This project hopes to solve specific problems that have been identified in the blockchain gaming ecosystem. Details about the problem statement and our proposed solutions could be found in the whitepaper linked below. 
 
+[Live-Demo](https://practical-jennings-1b91e5.netlify.app/)
+
 For a comprehensive run down about the gameplay, game economics, tokenomics, road map, e.t.c please visit the link below to read the Whitepaper. 
 
 [Whitepaper](https://getinsignia.gitbook.io/whitepaper/)

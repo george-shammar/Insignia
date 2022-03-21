@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# INSIGNIA
+
+## OVERVIEW
+Insignia is a 3D military strategy game. A multi-player play-and-earn game, set in a medieval metaverse. With an immersive experience and one that provides an unequaled earning potential to gamers across the board. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

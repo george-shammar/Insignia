@@ -4,12 +4,12 @@ import top from '../assets/top_brown.png';
 const Community = () => {
     return (
         <div>
-             <img src={bottom} className="rough"/>
+             <img src={bottom} alt="" className="rough"/>
         
             <div className="community">
                 
             </div>
-            <img src={top} className="rough"/>
+            <img src={top} alt="" className="rough"/>
         </div>
     
     )

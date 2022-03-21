@@ -88,8 +88,26 @@ Upon launching the application, go to "Play Now".
 ### Step 4: Download and Play
 Currently, a very limited edition of the Free-To-Play model of the game is available on PC. Android and IOS release is coming soon.
 
+# Game Overview
 
+## The basics
+### Cities
+World of Chaos is made up of three hundred (300) real-world ancient cities. Each city is a unique NFT. A typical city is made up of a Commander, an Army with a varied number of battalion (A battalion consists of 700 soldiers). When you mint a city, you get the following:
 
+- A medieval city and a 3 minutes video tour of your city with a short military show of force. It's architecture, people, and commerce.
+- An army with an unknown number of battalions before minting. The strength of your defense depends on the number of battalions in your army.
+- A commander.
+- A treasury.
+- A unique Insignia.
+
+The bad news is that there are too much incentives for other cities and Mercenaries to attack your city - Your treasury!!! When you're defeated at war by another army, you loose the balance (Insignia Token) in your treasury. When you successfully defend or repel an attack, you earn the balance in the attacking armies' treasury.
+
+You win or loose when your city's symbol of insignia is captured by the other army or otherwise. The World of Chaos is ultimately an open, virtual, and explorable meta-verse.
+
+### Mercenaries
+These are armies for hire - 45 in total. Each mercenary unit is a unique NFT with an unknown number of battalions before minting. Cities with insufficient armies can hire mercenaries to repel an attack or launch an attack. When you mint a mercenary unit you get the following.
+
+- An army with an unknown number of battalions.
 
 
 

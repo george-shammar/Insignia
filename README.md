@@ -1,7 +1,7 @@
 # INSIGNIA
 
 ## OVERVIEW
-Insignia is a 3D military strategy game. A multi-player play-and-earn game, set in a medieval metaverse. With an immersive experience and one that provides an unequaled earning potential to gamers across the board.
+Insignia is a 3D military strategy blockchain game application. A multi-player play-and-earn game, set in a medieval metaverse. With an immersive experience and one that provides an unequaled earning potential to gamers across the board.
 
 This project hopes to solve specific problems that have been identified in the blockchain gaming ecosystem. Details about the problem statement and our proposed solutions could be found in the whitepaper linked below. 
 
@@ -25,6 +25,22 @@ Insignia is built on top of [NEAR Protocol](https://near.org/) and game assets a
 - HTML
 - CSS
 - Bootstrap
+
+### Game
+- Unity Game Engine
+
+
+## Gettin Started
+
+### To start the application locally
+
+To run a local copy of this application, follow the steps below:
+
+- Go to the "Code" section of this repository and press the green button that says "Code". Copy the URL or the SSH key.
+- Go to the terminal and enter:
+```
+git clone https://github.com/george-shammar/Insignia.git
+```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -88,7 +88,8 @@ Upon launching the application, go to "Play Now".
 ### Step 4: Download and Play
 Currently, a very limited edition of the Free-To-Play model of the game is available on PC. Android and IOS release is coming soon.
 
-# Game Overview
+# Game Overview 
+(Find details in the whitepaper)
 
 ## The basics
 
@@ -116,7 +117,7 @@ These are armies for hire - 45 in total. Each mercenary unit is a unique NFT wit
 
 As an owner of a mercenary unit, you can attack a city to earn the balance of the city's treasury or rent out your army to another city for a fee paid upfront and not dependent on the outcome of the renter's war.
 
-#### Fighting Pits
+### Fighting Pits
 The fighting pit involves one-on-one combat in an arena of cheering crowds and real-world viewers. A fighting season takes a maximum of 7 days or less (depending on the number of participants). Each arena holds between 2, 4, and 8 fighters in each pool. One fighter emerges as the winner from each pool and faces the winner from another pool in the tournament until we have one final winner.
 
 Peering is done randomly and the reward mechanism also utilizes a no-loss mechanism. To fight in the tournament, the following steps need to be taken:

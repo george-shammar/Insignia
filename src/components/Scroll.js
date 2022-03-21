@@ -7,7 +7,7 @@ import '../styles/Scroll.css';
 const Scroll = () => {
   return(
       <div>
-             <img src={topdark} className="rough"/>
+             <img src={topdark} alt ="" className="rough"/>
     <div className="scroll">
      
       <section>
@@ -61,7 +61,7 @@ const Scroll = () => {
             
 
         </div>
-        <img src={bottomdark} className="rough"/>
+        <img src={bottomdark} alt="" className="rough"/>
     </div>
   )
 

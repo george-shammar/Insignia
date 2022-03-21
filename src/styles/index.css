@@ -1,1 +1,4 @@
-body {background-color: #0A1831;}
+body {
+  background-color: #0A1831;
+  max-width: 3600px;
+}

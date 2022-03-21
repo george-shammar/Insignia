@@ -3,6 +3,10 @@
     padding-bottom: 100px;
 }
 
+.rough {
+    width: 100%;
+}
+
 .topic {
     text-align: center;
     word-wrap: break-word;

@@ -3,6 +3,10 @@
 ## OVERVIEW
 Insignia is a 3D military strategy game. A multi-player play-and-earn game, set in a medieval metaverse. With an immersive experience and one that provides an unequaled earning potential to gamers across the board. 
 
+For a comprehensive run down about the gameplay, game economics, tokenomics, road map, e.t.c please visit the link below to read the Whitepaper. 
+
+[Whitepaper](https://getinsignia.gitbook.io/whitepaper/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

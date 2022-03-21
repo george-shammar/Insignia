@@ -7,11 +7,11 @@ import forwardArrow from '../assets/right-arrows.png';
 import backwardArrow from '../assets/left-arrow.png';
 import { login, logout } from '../utils';
 // import { login, logout } from "./utils";
-import getConfig from "../config";
+// import getConfig from "../config";
 import MintingTool from "./MintingTool";
 
 
-const { networkId } = getConfig(process.env.NODE_ENV || "development");
+// const { networkId } = getConfig(process.env.NODE_ENV || "development");
 
 const CreateAsset = () => {
   const [userHasNFT, setuserHasNFT] = useState(false);
@@ -142,8 +142,8 @@ const CreateAsset = () => {
                       </div>
                       
                         <div className='d-flex setup-navigation pt-5 mb-5'>
-                            <Link to="GetToken" className='font-meridian back'><p><img src={backwardArrow} className="arrow"/> Back</p></Link>
-                          <Link to="/DownloadGame" className='font-meridian back'><p>Next <img src={forwardArrow} className="arrow"/></p></Link> 
+                            <Link to="GetToken" className='font-meridian back'><p><img src={backwardArrow} alt="" className="arrow"/> Back</p></Link>
+                          <Link to="/DownloadGame" className='font-meridian back'><p>Next <img src={forwardArrow} alt="" className="arrow"/></p></Link> 
                           
                         </div>
                       </div>

@@ -90,8 +90,8 @@ const DownloadGame = () => (
        
         
           <div className='d-flex setup-navigation pt-5 mb-5'>
-              <Link to="GetToken" className='font-meridian back'><p><img src={backwardArrow} className="arrow"/> Back</p></Link>
-             <Link to="/" className='font-meridian back'><p>Next <img src={forwardArrow} className="arrow"/></p></Link> 
+              <Link to="GetToken" className='font-meridian back'><p><img src={backwardArrow} alt="" className="arrow"/> Back</p></Link>
+             <Link to="/" className='font-meridian back'><p>Next <img src={forwardArrow} alt="" className="arrow"/></p></Link> 
              
           </div>
          </div>

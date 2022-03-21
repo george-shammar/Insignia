@@ -87,3 +87,24 @@ Upon launching the application, go to "Play Now".
 
 ### Step 4: Download and Play
 Currently, a very limited edition of the Free-To-Play model of the game is available on PC. Android and IOS release is coming soon.
+
+
+
+
+
+
+## Developer
+
+👤 **George Gbenle**
+
+- GitHub: [george-shammar](https://github.com/george-shammar)
+- Twitter: [@GeorgeShammar](https://twitter.com/GeorgeShammar)
+- LinkedIn: [George Gbenle](https://www.linkedin.com/in/georgegbenle/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!

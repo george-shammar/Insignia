@@ -131,6 +131,8 @@ Peering is done randomly and the reward mechanism also utilizes a no-loss mechan
 - Right: Keyboard Key "D"
 - Left: Keyboard Key "A"
 - Squat : Keyboard Key "C"
+- Sommersault: Multiple Space Bar press
+- Strike: Left Mouse click.
 - Jump: Keyboard Key "Space Bar"
 
 ## Developer

@@ -18,7 +18,7 @@ function App() {
         <Nav />
         <Home />
         {/* <Trailer /> */}
-        <Event />
+        {/* <Event /> */}
         
         <Scroll />
         <Join />

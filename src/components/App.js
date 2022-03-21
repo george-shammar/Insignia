@@ -4,12 +4,9 @@ import Home from './Home';
 import "../styles/App.css"
 import Footer from "./Footer";
 import Copyright from './Copyright';
-import Trailer from './Trailer';
 import Scroll from './Scroll';
 import Join from './Join';
-import Event from './Event';
 import Community from './Community';
-import Next from './Next';
 
 function App() {
   return (
@@ -17,13 +14,9 @@ function App() {
       <div className="app">
         <Nav />
         <Home />
-        {/* <Trailer /> */}
-        {/* <Event /> */}
-        
         <Scroll />
         <Join />
         <Community />
-        {/* <Next /> */}
         <Footer />
         <Copyright />
       </div>

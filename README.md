@@ -74,3 +74,6 @@ Upon launching the application, go to "Play Now".
 
 ### Step 1: NEAR Wallet Set-up
 - Insignia lives on the NEAR protocol. NEAR Wallet is your ticket to our metaverse. For first time NEAR users, click "Get NEAR Wallet", otherwise, proceed to the next tab.
+
+### Step 2: Get Insignia Token.
+- Insignia Token is the native currency of our metaverse. Details about the tokenomics can be found in the Whitepaper.

@@ -125,6 +125,13 @@ Peering is done randomly and the reward mechanism also utilizes a no-loss mechan
 - Mint a fighter (unique NFT) to play. If you missed out during the initial minting, you may trade in the Marketplace. Insignia also provides the opportunity to rent a fighter from NFT owners who choose not to participate in a fighting season.
 - Deposit Insignia Tokens to enter the tournament. These tokens are withdrawable no matter the outcome of the tournament, win or lose. Hence, the no-loss mechanism.
 
+## Game Controls
+- Forward : Keyboard "W"
+- Backward: Keyboard Key "Z"
+- Right: Keyboard Key "D"
+- Left: Keyboard Key "A"
+- Squat : Keyboard Key "C"
+- Jump: Keyboard Key "Space Bar"
 
 ## Developer
 

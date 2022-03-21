@@ -44,7 +44,7 @@ const SecondComponent = () => (
       </video>
 
       <div className="overlay">
-        <p className="title-three white font-medieval">Own, Rent, BORROW & LEND UNIQUE NFTs </p>
+        <p className="title-three white font-medieval">OWN, RENT, BORROW & LEND UNIQUE NFTs </p>
         <p className="title-two white">A new world of Play-To-Earn.</p>
       </div>
       

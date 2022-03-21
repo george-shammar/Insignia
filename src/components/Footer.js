@@ -47,10 +47,10 @@ const Footer = () => {
                     <nav>
                         <div className="d-flex  justify-content-center py-5 last-footer">
                         <Link to="/"><i className="white fas fa-lg fa-home"></i></Link>
-                        <a className="px-4 white" href="#">Terms</a>
-                        <a className="white" href="#">Privacy</a>
-                        <a className="px-4 white" href="#">Cookies</a>
-                        <a className="white" href="#">Disclaimer</a>
+                        <a className="px-4 white" href="https">Terms</a>
+                        <a className="white" href="https">Privacy</a>
+                        <a className="px-4 white" href="https">Cookies</a>
+                        <a className="white" href="https">Disclaimer</a>
                         </div>
                     </nav>
                     <p className="border"></p>

@@ -14,11 +14,11 @@ const Footer = () => {
                         lectus quis lectus tristique tincidunt sed varius nisl tincidunt lectus pellentesque 
                         sagittis mauris ut leo ullamcorper tortor morbi accumsan.</p>
                         <div className="d-flex justify-content-between pt-5 px-3 justify-content-around">
-                            <p><a href="#"><i className="fab fa-facebook grey p-2 bg-secondary "></i></a></p>
-                            <p><a href="#"><i className="fab fa-linkedin grey p-2 bg-secondary"></i></a></p>
-                            <p><a href="#"><i class="fab fa-discord grey p-2 bg-secondary"></i></a></p>
-                            <p><a href="#"><i className="fab fa-twitter grey p-2 bg-secondary"></i></a></p>
-                            <p><a href="#"><i class="fab fa-instagram grey p-2 bg-secondary"></i></a></p>
+                            <p><a href="https://twitter.com/Insignia_verse?s=03"><i className="fab fa-facebook grey p-2 bg-secondary "></i></a></p>
+                            <p><a href="https://twitter.com/Insignia_verse?s=03"><i className="fab fa-linkedin grey p-2 bg-secondary"></i></a></p>
+                            <p><a href="https://discord.gg/A4xfZENW2Z"><i class="fab fa-discord grey p-2 bg-secondary"></i></a></p>
+                            <p><a href="https://twitter.com/Insignia_verse?s=03"><i className="fab fa-twitter grey p-2 bg-secondary"></i></a></p>
+                            <p><a href="https://twitter.com/Insignia_verse?s=03"><i class="fab fa-instagram grey p-2 bg-secondary"></i></a></p>
                         </div>
                     </div>
                     <div className="width-30 px-5">

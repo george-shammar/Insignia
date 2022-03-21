@@ -78,6 +78,9 @@ Upon launching the application, go to "Play Now".
 ### Step 2: Get Insignia Token.
 - Insignia Token is the native currency of our metaverse. Details about the tokenomics can be found in the Whitepaper. We are currently using NEAR as the means of exchange. Click "Fund Wallet" and visit any of the exchanges in the list to fund your wallet. To do anything with the NEAR Wallet, you will need at least 0.1 NEAR. However, on the testnet, NEAR wallet is pre-funded when you created an account.
 
-### Step 3: Create Game Asset
+### Step 3a: Create Game Asset
 - Each game asset is a unique NFT stored on IPFS. Each wallet can only have one Insignia NFT. Click "Connect Wallet" to link your NEAR Wallet. 
 - Click "Create Asset" to mint a unique NFT.
+
+### Step 3b: Marketplace
+- An alternative is to purchase a Game Asset in the Marketplace.

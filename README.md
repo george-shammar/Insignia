@@ -7,6 +7,8 @@ This project hopes to solve specific problems that have been identified in the b
 
 [Live-Demo](https://practical-jennings-1b91e5.netlify.app/)
 
+[Game-Demo](https://screenrec.com/share/wVkHyPRexT)
+
 For a comprehensive run down about the gameplay, game economics, tokenomics, road map, e.t.c please visit the link below to read the Whitepaper. 
 
 [Whitepaper](https://getinsignia.gitbook.io/whitepaper/)

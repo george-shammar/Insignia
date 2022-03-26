@@ -24,7 +24,8 @@ function Marketplace() {
                     </select>
                 </div>
                 
-                
+                <h3 className="coming-soon pt-5">Comming Soon... </h3>
+                <p className="coming-soon">Under construction.</p>
             </div>
             
             <div className="py-3">

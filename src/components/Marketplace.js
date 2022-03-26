@@ -1,11 +1,12 @@
 import Nav from "./Nav";
 import Copyright from "./Copyright";
+import "../styles/Marketplace.css";
 
 function Marketplace() {
     return (
-        <div className="marketplace">
+        <div>
             <Nav />
-            <h1>Marketplace</h1>
+            <h1 className="marketplace">Marketplace</h1>
             <Copyright />
         </div>
     )

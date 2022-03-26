@@ -6,8 +6,15 @@ function Marketplace() {
     return (
         <div>
             <Nav />
-            <p className="marketplace topic-marketplace font-medieval py-5">Insignia Marketplace</p>
-            <Copyright />
+            <div className="marketplace">
+                <p className="topic-marketplace font-medieval pt-5">Insignia Marketplace</p>
+                <p className="market-text gold">Own, Rent, Borrow And Lend Unique Assets</p>
+            </div>
+            
+            <div className="py-3">
+                <Copyright />
+            </div>
+            
         </div>
     )
 }

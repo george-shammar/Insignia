@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from "../assets/Logo.png";
-import Marketplace from './Marketplace';
 import "../styles/Nav.css"
 
 function Nav() {

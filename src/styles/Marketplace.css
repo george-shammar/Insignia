@@ -19,3 +19,8 @@
 .market-text {
     text-align: center;    
 }
+
+.capsules {
+    width: auto;
+    justify-content: space-around;
+}

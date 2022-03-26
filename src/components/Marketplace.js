@@ -1,5 +1,6 @@
 import Nav from "./Nav";
 import Copyright from "./Copyright";
+import { Link } from 'react-router-dom';
 import "../styles/Marketplace.css";
 
 function Marketplace() {
@@ -9,10 +10,21 @@ function Marketplace() {
             <div className="marketplace">
                 <p className="topic-marketplace font-medieval pt-5">Insignia Marketplace</p>
                 <p className="market-text gold">Own, Rent, Borrow And Lend Unique Assets</p>
-                <Link to="/WalletSetup" ><p className="wallet black font-meridian rounded-pill mt-3 py-2">Sell</p></Link>
-                {/* <div>
-                    <Link to="/WalletSetup" ><p className="wallet white font-meridian rounded-pill mt-3 py-2">Sell</p></Link>
-                </div> */}
+
+                <div className="d-flex capsules">
+                    <input className="rounded-pill" type="text" placeholder="Search"></input>
+                    <Link to="/WalletSetup" ><p className="wallet gold font-meridian rounded-pill mt-3 py-2 px-5">Sell</p></Link>
+                    <Link to="/WalletSetup" ><p className="wallet gold font-meridian rounded-pill mt-3 py-2 px-5">Rent Out</p></Link>
+
+
+                    <select className="form-select">
+                        <option selected>Filter</option>
+                        <option value="1">For Rent</option>
+                        <option value="2">For Sale</option>
+                    </select>
+                </div>
+                
+                
             </div>
             
             <div className="py-3">

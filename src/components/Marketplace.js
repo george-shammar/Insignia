@@ -2,7 +2,7 @@ import Nav from "./Nav";
 
 function Marketplace() {
     return (
-        <div className="marketplace">
+        <div className="play">
             <Nav />
             <h1>Marketplace</h1>
         </div>

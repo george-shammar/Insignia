@@ -16,6 +16,9 @@ For a comprehensive run down about the gameplay, game economics, tokenomics, roa
 
 Insignia is built on top of [NEAR Protocol](https://near.org/) and game assets are stored on IPFS.
 
+### Create Asset Page
+![screenshot](/src/assets/screenshot.png)
+
 ## Tech Stack
 
 ### Blockchain

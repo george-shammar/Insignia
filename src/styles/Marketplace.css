@@ -6,3 +6,12 @@
     background-size: cover;
     height: 100vh;
 }
+
+.topic-marketplace {
+    text-align: center;
+    word-wrap: break-word;
+    color: #070301;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.06;
+}

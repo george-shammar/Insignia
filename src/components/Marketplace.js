@@ -6,7 +6,7 @@ function Marketplace() {
     return (
         <div>
             <Nav />
-            <h1 className="marketplace">Marketplace</h1>
+            <p className="marketplace topic-marketplace font-medieval py-5">Insignia Marketplace</p>
             <Copyright />
         </div>
     )

@@ -12,7 +12,7 @@ function Marketplace() {
                 <p className="market-text gold">Own, Rent, Borrow And Lend Unique Assets</p>
 
                 <div className="d-flex capsules">
-                    <input className="rounded-pill" type="text" placeholder="Search"></input>
+                    <input className="rounded-pill mt-2" type="text" placeholder="Search"></input>
                     <Link to="/WalletSetup" ><p className="wallet gold font-meridian rounded-pill mt-3 py-2 px-5">Sell</p></Link>
                     <Link to="/WalletSetup" ><p className="wallet gold font-meridian rounded-pill mt-3 py-2 px-5">Rent Out</p></Link>
 

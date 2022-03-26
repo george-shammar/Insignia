@@ -24,3 +24,10 @@
     width: auto;
     justify-content: space-around;
 }
+
+.search {
+    /* padding: 0; */
+    /* width: 5%; */
+    height: 40px;
+    
+}

@@ -34,3 +34,7 @@
 .coming-soon {
     text-align: center;
 }
+
+.text-market:hover {
+    color: white;
+}

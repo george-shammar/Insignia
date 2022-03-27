@@ -13,8 +13,8 @@ function Marketplace() {
 
                 <div className="d-flex capsules">
                     <input className="rounded-pill font-meridian gold search mt-3" type="text" placeholder="Search" />
-                    <Link to="/WalletSetup" ><p className="wallet gold font-meridian rounded-pill mt-3 py-2 px-5">Sell</p></Link>
-                    <Link to="/WalletSetup" ><p className="wallet gold font-meridian rounded-pill mt-3 py-2 px-5">Rent Out</p></Link>
+                    <Link to="/WalletSetup" ><p className="wallet text-market gold font-meridian rounded-pill mt-3 py-2 px-5">Sell</p></Link>
+                    <Link to="/WalletSetup" ><p className="wallet text-market gold font-meridian rounded-pill mt-3 py-2 px-5">Rent Out</p></Link>
 
 
                     <select className="form-select wallet rounded-pill font-meridian gold search px-4 mt-3">

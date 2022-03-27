@@ -10,8 +10,8 @@ const MintingTool = (props) => {
       {
         token_id: `${window.accountId}-go-team-token`,
         metadata: {
-          title: "My Non Fungible Team Token",
-          description: "The Team Most Certainly Goes :)",
+          title: "Insignia",
+          description: "Insignia Metaverse",
           media:
             "https://bafybeibubx5e4k4ycoag5p54s3lmhnbcbny2ln6drydgj3oomxpzmuqn5a.ipfs.dweb.link/",
         },

@@ -13,7 +13,7 @@ const MintingTool = (props) => {
           title: "My Non Fungible Team Token",
           description: "The Team Most Certainly Goes :)",
           media:
-            "https://bafybeiftczwrtyr3k7a2k4vutd3amkwsmaqyhrdzlhvpt33dyjivufqusq.ipfs.dweb.link/goteam-gif.gif",
+            "https://bafybeibubx5e4k4ycoag5p54s3lmhnbcbny2ln6drydgj3oomxpzmuqn5a.ipfs.dweb.link/",
         },
         receiver_id: window.accountId,
       },

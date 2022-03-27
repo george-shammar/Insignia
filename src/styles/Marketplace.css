@@ -28,6 +28,7 @@
 .search {
     background-color: #f2e0c8;
     height: 40px;
+    border: solid;
 }
 
 .coming-soon {

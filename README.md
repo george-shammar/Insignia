@@ -1,4 +1,4 @@
-[alt text](https://github.com/george-shammar/Insignia/blob/master/src/assets/Logo.png?raw=true)
+![alt text](https://github.com/george-shammar/Insignia/blob/master/src/assets/Logo.png?raw=true)
 # INSIGNIA
 
 ## OVERVIEW

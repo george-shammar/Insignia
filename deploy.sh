@@ -7,5 +7,5 @@ echo "Building app"
 npm run build
 
 echo "Deploying files to server"
-rsync -avP build/ tasmara@getinsignia.com:/var/www/getinsignia.com/
+rsync -avP build/ root@45.33.31.71:/var/www/45.33.31.71
 echo "Deployment complete"

@@ -13,7 +13,14 @@ import forwardArrow from '../assets/right-arrows.png';
 import backwardArrow from '../assets/left-arrow.png';
 require('dotenv').config();
 
+const NFT_STORAGE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDMyNTlEMWEzNTNEMzgyNjQ4MDVmNkY4Y2NjMTY0RThFODQzM0I0MDYiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTYzNzkzOTM1Njc5NywibmFtZSI6IkF6YW5pYSJ9.Tn3kou1OKA09gdsp0pduKzFUJGAVQ8KXk1-44pLWH9w";
+const ERROR_CODE_TX_REJECTED_BY_USER = 4001;
+
 const CreateAsset = () => {
+    const [walletAddress, setWallet] = useState("");
+    const [formInput, updateFormInput] = useState({name:""});
+    const [status, setStatus] = useState("");
+
   return(
                 <div>
                     <div className='play'>

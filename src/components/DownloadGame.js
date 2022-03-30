@@ -15,9 +15,6 @@ const DownloadGame = () => (
         <div>
          
 
-
-
-
         <div className='d-flex steps px-5 pt-5 font-meridian'>
         <Link to="/WalletSetup" className='child'>
           <div >

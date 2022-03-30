@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import forwardArrow from '../assets/right-arrows.png';
 import backwardArrow from '../assets/left-arrow.png';
 import near from '../assets/near-logo.png';
+import metamask from '../assets/MetaMask-Logo.png';
 import '../styles/WalletSetup.css';
 
 const WalletSetup = () => (
@@ -83,8 +84,8 @@ const WalletSetup = () => (
 
         </div>
         <div className='font-meridian near-wallet pt-5'>
-          <h3>Create your NEAR wallet</h3>
-          <p className='gold'>Insignia lives on the NEAR protocol. NEAR Wallet is your ticket to our metaverse.</p>
+          <h3>Connect To Insignia</h3>
+          <p className='gold'>Insignia is a multi-protocol application. Connect to your favorite wallet.</p>
         </div>
 
 
@@ -93,9 +94,15 @@ const WalletSetup = () => (
             <article className="px-2">
                         <h6 className="bold pb-3 action font-meridian">WALLET SETUP</h6>
                         <p className="font-meridian">
-                          Feel free to skip this section if you already have a NEAR account. Otherwise, follow the simple instructions in the link below to get setup.
+                          Connect with Metamask or the NEAR Wallet. Skip this section if you already have a NEAR account.
                         </p>
             </article>
+
+            <img src={metamask} alt="" className="near-logo"/>
+
+            <div>
+                    <a href="https://wallet.near.org/" target="_blank"  rel="noreferrer" className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2 px-5">Connect with Metamask</a>
+            </div>
 
             <img src={near} alt="" className="near-logo"/>
 

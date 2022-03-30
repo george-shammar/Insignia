@@ -11,6 +11,7 @@ import Copyright from './Copyright';
 import { Link } from 'react-router-dom';
 import forwardArrow from '../assets/right-arrows.png';
 import backwardArrow from '../assets/left-arrow.png';
+require('dotenv').config();
 
 const CreateAsset = () => {
   return(

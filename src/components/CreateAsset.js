@@ -177,6 +177,19 @@ const CreateAsset = () => {
                           <article className="px-2">
                                       <h6 className="bold pb-3 action font-meridian">Mint A Unique Character</h6>
                                       <p className='gold'></p>
+
+                                      <div>
+                                          {walletAddress.length > 0 ? (
+                                            <div className="wallet white font-meridian rounded-pill mt-3 py-2">Current Player:   
+                                              {String(walletAddress).substring(0, 6) +
+                                              "..." +
+                                              String(walletAddress).substring(38)}
+                                            </div>
+                                            ) : (
+                                          <div className="wallet white font-meridian rounded-pill mt-3 py-2" onClick={connectWalletPressed}>Connect To Insignia</div>
+                                            )}
+                                      </div>
+
                           </article>
 
                       </div>

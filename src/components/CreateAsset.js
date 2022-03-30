@@ -78,7 +78,7 @@ const CreateAsset = () => {
   
                 const metadataURI = metadata.url;
                 
-                const transaction = await contract.createRandomMage(name, metadataURI, { value: mintingPrice });
+                const transaction = await contract.createRandomGladiator(name, metadataURI, { value: mintingPrice });
   
                 setStatus("Blockchain transaction sent, awaiting confirmation...");
   

@@ -63,8 +63,8 @@ const CreateAsset = () => {
         const provider = new ethers.providers.Web3Provider(window.ethereum);
         const signer = provider.getSigner();
         const contract = new ethers.Contract(contractAddress.Insignia, MageArtifact.abi, signer);
-        const mintingPrice = await contract.getMintingPrice();
-        
+        // const mintingPrice = await contract.getMintingPrice();
+        const mintingPrice= "1200000000000000"
               try {
                 const client = new NFTStorage({ token: NFT_STORAGE_KEY });
                 setStatus("Uploading to nft.storage...")
@@ -196,7 +196,7 @@ const CreateAsset = () => {
 
                                       <div>
                                           <input 
-                                              className="name py-1 white" 
+                                              className="name py-1 black" 
                                               placeholder="Name your Hero"
                                               required
                                               onChange={e => updateFormInput({...formInput, name: e.target.value})}  

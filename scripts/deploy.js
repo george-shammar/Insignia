@@ -1,3 +1,7 @@
+require("@nomiclabs/hardhat-waffle");
+const fs = require('fs');
+const { ethers } = require("hardhat");
+
 async function main() {
     const [deployer] = await ethers.getSigners();
   

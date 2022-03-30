@@ -23,7 +23,7 @@ const DownloadGame = () => (
           <div >
               <p className='step-figure hightlighted py-2 rounded'>1</p>
               
-              <p className='mt-3'>NEAR Wallet Set up</p>
+              <p className='mt-3'>Wallet Set up</p>
           
           </div>
         </Link>

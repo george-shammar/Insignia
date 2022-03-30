@@ -144,7 +144,7 @@ const WalletSetup = () => {
 
             <div>
                 <img src={metamask} alt="" className="near-logo"/>
-                <div>
+              <div>
                 {walletAddress.length > 0 ? (
                   <div className="wallet-metamask white font-meridian rounded-pill mb-0 py-2 px-5">Current Player:   
                     {String(walletAddress).substring(0, 6) +

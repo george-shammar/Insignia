@@ -178,7 +178,7 @@ const CreateAsset = () => {
                                       <h6 className="bold pb-3 action font-meridian">Mint A Unique Character</h6>
                                       <p className='gold'></p>
 
-                                      <div>
+                                      {/* <div>
                                           {walletAddress.length > 0 ? (
                                             <div className="wallet black font-meridian rounded-pill mt-3 py-2">Current Player:   
                                               {String(walletAddress).substring(0, 6) +
@@ -188,7 +188,19 @@ const CreateAsset = () => {
                                             ) : (
                                           <div className="wallet font-meridian rounded-pill mt-3 py-2" onClick={connectWalletPressed}>Connect To Insignia</div>
                                             )}
-                                      </div>
+                                      </div> */}
+
+              <div>
+                {walletAddress.length > 0 ? (
+                  <div className="wallet-metamask white font-meridian rounded-pill mb-0 py-2 px-5">Current Player:   
+                    {String(walletAddress).substring(0, 6) +
+                      "..." +
+                    String(walletAddress).substring(38)}
+                  </div>
+                    ) : (
+                  <div className="wallet-metamask white font-meridian rounded-pill mb-0 py-2 px-5" onClick={connectWalletPressed}>Connect with Metamask</div>
+                )}
+              </div>
 
                                       <p className="white py-2 status">
                                         {status}

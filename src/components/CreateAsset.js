@@ -180,13 +180,13 @@ const CreateAsset = () => {
 
                                       <div>
                                           {walletAddress.length > 0 ? (
-                                            <div className="wallet white font-meridian rounded-pill mt-3 py-2">Current Player:   
+                                            <div className="wallet black font-meridian rounded-pill mt-3 py-2">Current Player:   
                                               {String(walletAddress).substring(0, 6) +
                                               "..." +
                                               String(walletAddress).substring(38)}
                                             </div>
                                             ) : (
-                                          <div className="wallet white font-meridian rounded-pill mt-3 py-2" onClick={connectWalletPressed}>Connect To Insignia</div>
+                                          <div className="wallet font-meridian rounded-pill mt-3 py-2" onClick={connectWalletPressed}>Connect To Insignia</div>
                                             )}
                                       </div>
 

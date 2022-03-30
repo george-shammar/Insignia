@@ -23,7 +23,7 @@ const Event = () => {
                 </div>
                 <div className="border rounded card-space shadow-lg">
                 <article className="px-2">
-                    <i class="fas fa-shopping-cart py-4 icon-size action"></i>
+                    <i className="fas fa-shopping-cart py-4 icon-size action"></i>
                     <h6 className="bold pb-3 action font-meridian">GET TOKEN</h6>
                     <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -32,7 +32,7 @@ const Event = () => {
                 </div>
                 <div className="border rounded card-space shadow-lg">
                 <article className="px-2">
-                <i class="fas fa-paint-brush pink py-4 icon-size action"></i>
+                <i className="fas fa-paint-brush pink py-4 icon-size action"></i>
                     <h6 className="bold pb-3 action font-meridian">CREATE GAME ASSET</h6>
                     <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -53,7 +53,7 @@ const Event = () => {
 
                 <div className="border rounded card-space shadow-lg">
                 <article className="px-2">
-                    <i class="fas fa-shopping-cart py-4 icon-size action"></i>
+                    <i className="fas fa-shopping-cart py-4 icon-size action"></i>
                     <h6 className="bold pb-3 action font-meridian">DOWNLOAD & PLAY</h6>
                     <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

@@ -1,45 +1,12 @@
 import "regenerator-runtime/runtime";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Nav from "./Nav";
 import Copyright from './Copyright';
 import { Link } from 'react-router-dom';
 import forwardArrow from '../assets/right-arrows.png';
 import backwardArrow from '../assets/left-arrow.png';
-import { login, logout } from '../utils';
-// import { login, logout } from "./utils";
-// import getConfig from "../config";
-import MintingTool from "./MintingTool";
-
-
-// const { networkId } = getConfig(process.env.NODE_ENV || "development");
 
 const CreateAsset = () => {
-  const [userHasNFT, setuserHasNFT] = useState(false);
-
-
-  useEffect(() => {
-    const receivedNFT = async () => {
-      console.log(
-        await window.contract.check_token({
-          id: `${window.accountId}-go-team-token`,
-        })
-      );
-      if (window.accountId !== "") {
-        console.log(
-          await window.contract.check_token({
-            id: `${window.accountId}-go-team-token`,
-          })
-        );
-
-        setuserHasNFT(
-          await window.contract.check_token({
-            id: `${window.accountId}-go-team-token`,
-          })
-        );
-      }
-    };
-    receivedNFT();
-  }, []);
 
   return(
                 <div>
@@ -116,21 +83,6 @@ const CreateAsset = () => {
                                       <p className='gold'></p>
                           </article>
 
-                          <div>
-                            <div className="sign-in border p-2 center font-meridian" onClick={window.walletConnection.isSignedIn() ? logout : login}>
-                            
-                              {window.walletConnection.isSignedIn()
-                                ? (<p>Connected Wallet: <span>{window.accountId}</span></p>)
-                                : "Connect Wallet"}
-                            </div>{" "}
-                          </div>
-
-                          <div>
-                              <MintingTool userNFTStatus={userHasNFT} />
-                          </div>
-
-
-                          
                       </div>
 
 

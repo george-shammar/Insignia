@@ -104,6 +104,7 @@ const CreateAsset = () => {
           return <NoWallet />;
         }
 
+      const confirmedStatus =  "Insignia gladiator minted successfully!";
 
 
   return(

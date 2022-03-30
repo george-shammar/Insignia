@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect, useState } from "react";
+import { connectWallet, getCurrentWalletConnected } from "../utils/wallet";
 import Nav from "./Nav";
 import Copyright from './Copyright';
 import { Link } from 'react-router-dom';
@@ -6,7 +7,45 @@ import forwardArrow from '../assets/right-arrows.png';
 import backwardArrow from '../assets/left-arrow.png';
 import '../styles/Play.css';
 
-const GetToken = () => (
+const GetToken = () => {
+
+  const [walletAddress, setWallet] = useState("");
+
+  useEffect(() => {
+    (async() => {
+      const {address} = await getCurrentWalletConnected();
+      setWallet(address)
+  
+      addWalletListener();
+    }) ()
+  }, []);
+
+
+    // connect wallet 
+    const connectWalletPressed = async () => {
+      const walletResponse = await connectWallet();
+      setWallet(walletResponse.address);
+    };
+
+    // wallet listener to update UI when wallet's state changes, 
+    // such as when the user disconnects or switches accounts.
+    function addWalletListener() {
+      if (window.ethereum) {
+      window.ethereum.on("accountsChanged", (accounts) => {
+          if (accounts.length > 0) {
+          setWallet(accounts[0]);
+        
+          } else {
+          setWallet("");
+          }
+      });
+      } 
+    }
+
+
+  
+  
+  return (
   <div>
        <div className='play'>
         <div>
@@ -88,9 +127,32 @@ const GetToken = () => (
 
             {/* <img src={near} className="near-logo"/> */}
 
-            <div>
+              <div className="mb-5">
+                {walletAddress.length > 0 ? (
+                  <div className="wallet-metamask white font-meridian rounded-pill mb-0 py-2 px-5">Current Player:   
+                    {String(walletAddress).substring(0, 6) +
+                      "..." +
+                    String(walletAddress).substring(38)}
+                  </div>
+                    ) : (
+                  <div className="wallet-metamask white font-meridian rounded-pill mb-0 py-2 px-5" onClick={connectWalletPressed}>Connect with Metamask</div>
+                )}
+              </div>
+
+
+
+              
                     <a href="https://wallet.near.org/" target="_blank"  rel="noreferrer" className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2 px-5">Fund Wallet</a>
-            </div>
+            
+
+
+
+
+
+
+
+
+
         </div>
 
 
@@ -105,6 +167,7 @@ const GetToken = () => (
         
         <Copyright />
   </div>
-);
+  )
+};
 
 export default GetToken;

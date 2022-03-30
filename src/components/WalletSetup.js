@@ -6,9 +6,7 @@ import backwardArrow from '../assets/left-arrow.png';
 import near from '../assets/near-logo.png';
 import metamask from '../assets/MetaMask-Logo.png';
 import React, { useEffect, useState } from "react";
-import { ethers } from "ethers";
 import { connectWallet, getCurrentWalletConnected } from "../utils/wallet";
-import { NoWallet } from "./NoWallet";
 import '../styles/WalletSetup.css';
 
 const WalletSetup = () => {

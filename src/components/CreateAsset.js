@@ -7,7 +7,6 @@ import forwardArrow from '../assets/right-arrows.png';
 import backwardArrow from '../assets/left-arrow.png';
 
 const CreateAsset = () => {
-
   return(
                 <div>
                     <div className='play'>

@@ -190,6 +190,32 @@ const CreateAsset = () => {
                                             )}
                                       </div>
 
+                                      <p className="white py-2 status">
+                                        {status}
+                                      </p>
+
+                                      <div>
+                                          <input 
+                                              className="name py-1 white" 
+                                              placeholder="Name your Hero"
+                                              required
+                                              onChange={e => updateFormInput({...formInput, name: e.target.value})}  
+                                          />
+                                      </div>
+
+                                      <button className="py-2 submit white" onClick={mintGladiator}>
+                                          Mint Mage
+                                      </button>
+
+
+                                      <div className="mint">
+                                        {status ===  confirmedStatus ? (
+                                          <Link to="/"><button className="white rounded my-5 py-2 submit white">Reveal Mage</button></Link>
+                                        ) : (
+                                          <p className="pink py-3">Reveal Gladiator here after confirmation... </p>
+                                        )}
+                                      </div>
+
                           </article>
 
                       </div>

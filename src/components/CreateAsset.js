@@ -1,5 +1,11 @@
 import "regenerator-runtime/runtime";
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { ethers } from "ethers";
+import { connectWallet, getCurrentWalletConnected } from "../utils/wallet";
+import { NoWallet } from "./NoWallet";
+import { NFTStorage, File } from 'nft.storage'
+import contractAddress from "../contracts/contract-address.json";
+import MageArtifact from "../contracts/Insignia.json";
 import Nav from "./Nav";
 import Copyright from './Copyright';
 import { Link } from 'react-router-dom';

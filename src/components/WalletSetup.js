@@ -1,4 +1,3 @@
-import React from 'react';
 import Nav from "./Nav";
 import Copyright from './Copyright';
 import { Link } from 'react-router-dom';
@@ -12,7 +11,47 @@ import { connectWallet, getCurrentWalletConnected } from "../utils/wallet";
 import { NoWallet } from "./NoWallet";
 import '../styles/WalletSetup.css';
 
-const WalletSetup = () => (
+const WalletSetup = () => {
+  const [walletAddress, setWallet] = useState("");
+
+  useEffect(() => {
+    (async() => {
+      const {address} = await getCurrentWalletConnected();
+      setWallet(address)
+  
+      addWalletListener();
+    }) ()
+  }, []);
+
+
+    // connect wallet 
+    const connectWalletPressed = async () => {
+      const walletResponse = await connectWallet();
+      setWallet(walletResponse.address);
+    };
+
+    // wallet listener to update UI when wallet's state changes, 
+    // such as when the user disconnects or switches accounts.
+    function addWalletListener() {
+      if (window.ethereum) {
+      window.ethereum.on("accountsChanged", (accounts) => {
+          if (accounts.length > 0) {
+          setWallet(accounts[0]);
+        
+          } else {
+          setWallet("");
+          }
+      });
+      } 
+    }
+
+
+
+
+
+
+
+  return (
   <div>
       <div className='play'>
         <div>
@@ -101,18 +140,34 @@ const WalletSetup = () => (
                           Connect with Metamask or the NEAR Wallet. Skip this section if you already have a NEAR account.
                         </p>
             </article>
-
-            <img src={metamask} alt="" className="near-logo"/>
-
-            <div>
-                    <a href="https://wallet.near.org/" target="_blank"  rel="noreferrer" className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2 px-5">Connect with Metamask</a>
-            </div>
-
-            <img src={near} alt="" className="near-logo"/>
+          
 
             <div>
-                    <a href="https://wallet.near.org/" target="_blank"  rel="noreferrer" className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2 px-5">Get NEAR Wallet</a>
+                <img src={metamask} alt="" className="near-logo"/>
+                <div>
+                {walletAddress.length > 0 ? (
+                  <div className="wallet-metamask white font-meridian rounded-pill mb-0 py-2 px-5">Current Player:   
+                    {String(walletAddress).substring(0, 6) +
+                      "..." +
+                    String(walletAddress).substring(38)}
+                  </div>
+                    ) : (
+                  <div className="wallet-metamask white font-meridian rounded-pill mb-0 py-2 px-5" onClick={connectWalletPressed}>Connect with Metamask</div>
+                )}
+              </div>
             </div>
+            
+
+            
+
+            <div>
+                <img src={near} alt="" className="near-logo mt-0 pt-0"/>
+
+                <div>
+                  <a href="https://wallet.near.org/" target="_blank"  rel="noreferrer" className="wallet-scroll white font-meridian rounded-pill py-2 px-5">Get NEAR Wallet</a>
+                </div>
+            </div>
+
         </div>
 
 
@@ -142,6 +197,7 @@ const WalletSetup = () => (
         
      
   </div>
-);
+  )
+};
 
 export default WalletSetup;

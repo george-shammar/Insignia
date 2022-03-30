@@ -7,10 +7,24 @@
   text-align: center;
   max-width: 60%;
   background-color: rgba(172, 172, 172, 0.432);
-  height: 500px;
+  height: 600px;
   border-radius: 1.5%;
 }
 
 .near-logo {
   width: 20%;
+}
+
+.wallet-metamask {
+  cursor: pointer;
+  border: solid;
+  border-color: #bd8d4c;
+  background-color: #bd8d4c;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+}
+
+.container-wallet {
+  flex-direction: column;
 }

@@ -17,9 +17,44 @@ const NFT_STORAGE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZX
 const ERROR_CODE_TX_REJECTED_BY_USER = 4001;
 
 const CreateAsset = () => {
+
     const [walletAddress, setWallet] = useState("");
     const [formInput, updateFormInput] = useState({name:""});
     const [status, setStatus] = useState("");
+
+            useEffect(() => {
+              (async() => {
+                const {address} = await getCurrentWalletConnected();
+                setWallet(address)
+            
+                addWalletListener();
+              }) ()
+            }, []);
+
+            // connect wallet 
+            const connectWalletPressed = async () => {
+              const walletResponse = await connectWallet();
+              setWallet(walletResponse.address);
+          };
+
+          // wallet listener to update UI when wallet's state changes, 
+          // such as when the user disconnects or switches accounts.
+          function addWalletListener() {
+              if (window.ethereum) {
+              window.ethereum.on("accountsChanged", (accounts) => {
+                  if (accounts.length > 0) {
+                  setWallet(accounts[0]);
+                
+                  } else {
+                  setWallet("");
+                  }
+              });
+              } 
+          }
+
+
+
+
 
   return(
                 <div>

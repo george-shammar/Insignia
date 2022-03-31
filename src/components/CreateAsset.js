@@ -224,7 +224,7 @@ const CreateAsset = () => {
 
                                       <div className="mint">
                                         {status ===  confirmedStatus ? (
-                                          <Link to="/"><p className="wallet-metamask white font-meridian rounded-pill mb-0 py-2 px-5">Reveal Asset</p></Link>
+                                          <Link to="/Reveal"><p className="wallet-metamask white font-meridian rounded-pill mb-0 py-2 px-5">Reveal Asset</p></Link>
                                         ) : (
                                           <p className="font-meridian">Reveal Gladiator here after confirmation... </p>
                                         )}

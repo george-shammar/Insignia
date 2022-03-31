@@ -7,12 +7,8 @@ import Copyright from './Copyright';
 import Nav from "./Nav";
 import '../styles/Reveal.css';
 
-const Reveal = () => {
-    const [name, setName] = useState([])
-    const [id, setID] = useState([])
-    const [dna, setDNA] = useState([])
-    const [rarity, setRarity] = useState([])
-    const [level, setLevel] = useState([])
+const Reveal = () => {  
+    const [mages, setMages] = useState([]);
 
       useEffect(() => {
         loadNFTs()
@@ -27,21 +23,24 @@ const Reveal = () => {
         const account = accounts[0];
 
         const data = await contract.getOwnerGladiators(account);
-        let mage = data[data.length-1];
-        const mageName = mage.name;
-        const mageID = mage.id.toString();
-        const mageDNA = mage.dna.toString();
-        const mageRarity = mage.rarity.toString();
-        const mageLevel = mage.level
-        setName(mageName)
-        setID(mageID)
-        setDNA(mageDNA)
-        setRarity(mageRarity)
-        setLevel(mageLevel)
+
+        const mages = await Promise.all(data.map(async i => {
+            let mage = {
+                mageName : i.name,
+                mageID : i.id.toString(),
+                mageDNA : i.dna.toString(),
+                mageRarity : i.rarity.toString(),
+                mageLevel : i.level,
+            }
+    
+            return mage;
+        }));
+        setMages(mages);
   
       }
 
     return (
+        <div>
         <div className="play">
           <div>
           <Nav />
@@ -53,24 +52,33 @@ const Reveal = () => {
                 <div className="border card mage-heigth rounded shadow-lg mt-3">
                     <img alt="logo" src={player} />
                 </div>
-                <div className="border">
-                    <p className="font-meridian">Name: {name}</p>
+                <div>
+                    
+                {
+                mages.map((mage, i) => (
+                <div className="border" key={mage.mageID}>
+                    <p className="font-meridian">Name: {mage.mageName}</p>
                     <div className="mt-3">
-                    <p className="font-meridian">ID: {id}</p>
-                    <p className="font-meridian">DNA: {dna}</p>
+                    <p className="font-meridian">ID: {mage.mageID}</p>
+                    <p className="font-meridian">DNA: {mage.mageDNA}</p>
                     <div className="font-meridian">
-                        {rarity <= 80 ? (
+                        {mage.mageRarity <= 80 ? (
                             <p>Rarity: Rare</p>
                         ) : (
                             <p>Rarity: Super Rare</p>
                         )}
                         
                     </div>
-                    <p className="font-meridian">Level: {level}</p>
+                    <p className="font-meridian">Level: {mage.mageLevel}</p>
                     </div>
                 </div>
+                ))
+            }
             </div>
-            <Copyright />
+            </div>
+            
+        </div>
+        <Copyright />
         </div>
     )
 }

@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { ethers } from "ethers";
 import contractAddress from "../contracts/contract-address.json";
 import MageArtifact from "../contracts/Insignia.json";
+import '../styles/Reveal.css';
 
 const RevealHero = () => {
     const [name, setName] = useState([])

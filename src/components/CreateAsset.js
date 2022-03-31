@@ -208,15 +208,15 @@ const CreateAsset = () => {
 
                                       <div>
                                           <input 
-                                              className="name py-1 black" 
+                                              className="py-1 mt-5 rounded-pill font-meridian" 
                                               placeholder="Name your Asset"
                                               required
                                               onChange={e => updateFormInput({...formInput, name: e.target.value})}  
                                           />
                                       </div>
 
-                                      <button className="py-2 mt-3 mb-5 submit white" onClick={mintGladiator}>
-                                          Mint Mage
+                                      <button className="py-2 px-3 mt-3 mb-5 font-meridian" onClick={mintGladiator}>
+                                          Mint Asset
                                       </button>
 
 

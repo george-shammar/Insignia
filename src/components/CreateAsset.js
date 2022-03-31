@@ -222,7 +222,7 @@ const CreateAsset = () => {
 
                                       <div className="mint">
                                         {status ===  confirmedStatus ? (
-                                          <Link to="/"><button className="white rounded my-5 py-2 submit white">Reveal Mage</button></Link>
+                                          <Link to="/"><button className="white rounded my-5 py-2 submit white">Reveal Asset</button></Link>
                                         ) : (
                                           <p className="pink py-3">Reveal Gladiator here after confirmation... </p>
                                         )}

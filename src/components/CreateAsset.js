@@ -73,7 +73,9 @@ const CreateAsset = () => {
                   description: "Insignia demo gladiator",
                   image: new File(['./assets/player.png'], 'player.png', { type: 'image/jpg' })
                 });
-  
+
+                
+
                 setStatus(`Minting token with metadata URI: ${metadata.url}`);
   
                 const metadataURI = metadata.url;
@@ -202,7 +204,7 @@ const CreateAsset = () => {
                 )}
               </div>
 
-                                      <p className="white py-2 status">
+                                      <p className="py-2 font-meridian">
                                         {status}
                                       </p>
 
@@ -215,9 +217,9 @@ const CreateAsset = () => {
                                           />
                                       </div>
 
-                                      <button className="py-2 px-3 mt-3 mb-5 font-meridian" onClick={mintGladiator}>
+                                      <p className="py-2 px-3 mt-3 mb-5 submit wallet-metamask white font-meridian rounded-pill" onClick={mintGladiator}>
                                           Mint Asset
-                                      </button>
+                                      </p>
 
 
                                       <div className="mint">

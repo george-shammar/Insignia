@@ -28,3 +28,7 @@
 .container-wallet {
   flex-direction: column;
 }
+
+.submit {
+  cursor: pointer;
+}

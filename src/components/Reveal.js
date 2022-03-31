@@ -4,6 +4,7 @@ import { ethers } from "ethers";
 import contractAddress from "../contracts/contract-address.json";
 import MageArtifact from "../contracts/Insignia.json";
 import Copyright from './Copyright';
+import Nav from "./Nav";
 import '../styles/Reveal.css';
 
 const Reveal = () => {
@@ -41,18 +42,20 @@ const Reveal = () => {
       }
 
     return (
-        <div className="overall butt">
-          
+        <div className="play">
+          <div>
+          <Nav />
+        </div>
             <div className="d-flex main flex-column justify-content-between align-text-center pt-2 px-4">
-                <h1 className="font-meridian py-2">Insignia Asset</h1>
+                <h1 className="font-meridian py-2 center my-5">Insignia Asset</h1>
             </div>
             <div className="mint">
                 <div className="border card mage-heigth rounded shadow-lg mt-3">
                     <img alt="logo" src={player} />
                 </div>
                 <div className="border">
-                    <p className="white font-meridian">Name: {name}</p>
-                    <div className="white mt-3">
+                    <p className="font-meridian">Name: {name}</p>
+                    <div className="mt-3">
                     <p className="font-meridian">ID: {id}</p>
                     <p className="font-meridian">DNA: {dna}</p>
                     <div className="font-meridian">

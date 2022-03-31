@@ -3,9 +3,10 @@ import { useEffect, useState } from "react";
 import { ethers } from "ethers";
 import contractAddress from "../contracts/contract-address.json";
 import MageArtifact from "../contracts/Insignia.json";
+import Copyright from './Copyright';
 import '../styles/Reveal.css';
 
-const RevealHero = () => {
+const Reveal = () => {
     const [name, setName] = useState([])
     const [id, setID] = useState([])
     const [dna, setDNA] = useState([])
@@ -44,17 +45,16 @@ const RevealHero = () => {
           
             <div className="d-flex main flex-column justify-content-between align-text-center pt-2 px-4">
                 <h1 className="font-meridian py-2">Insignia Asset</h1>
-                <p className="font-meridian center">{name} is ready... </p>
             </div>
             <div className="mint">
                 <div className="border card mage-heigth rounded shadow-lg mt-3">
                     <img alt="logo" src={player} />
                 </div>
                 <div className="border">
-                    <p className="white">Name: {name}</p>
+                    <p className="white font-meridian">Name: {name}</p>
                     <div className="white mt-3">
-                    <p>ID: {id}</p>
-                    <p>DNA: {dna}</p>
+                    <p className="font-meridian">ID: {id}</p>
+                    <p className="font-meridian">DNA: {dna}</p>
                     <div className="font-meridian">
                         {rarity <= 80 ? (
                             <p>Rarity: Rare</p>
@@ -63,15 +63,15 @@ const RevealHero = () => {
                         )}
                         
                     </div>
-                    <p>Level: {level}</p>
+                    <p className="font-meridian">Level: {level}</p>
                     </div>
                 </div>
             </div>
-           
+            <Copyright />
         </div>
     )
 }
 
 
 
-export default RevealHero;
+export default Reveal;

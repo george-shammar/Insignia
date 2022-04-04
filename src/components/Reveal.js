@@ -5,6 +5,7 @@ import contractAddress from "../contracts/contract-address.json";
 import MageArtifact from "../contracts/Insignia.json";
 import Copyright from './Copyright';
 import Nav from "./Nav";
+import { Link } from 'react-router-dom';
 import '../styles/Reveal.css';
 
 const Reveal = () => {  
@@ -77,6 +78,13 @@ const Reveal = () => {
             </div>
             </div>
             
+            <Link to="/DownloadGame" className='child mb-5'> 
+            <div>
+              <p className='mt-5 mb-5 wallet-scroll white font-meridian rounded-pill py-2'>Download & Play</p> 
+            </div>
+        </Link>
+
+
         </div>
         <Copyright />
         </div>

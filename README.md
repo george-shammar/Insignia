@@ -42,7 +42,7 @@ Insignia is built on top of [NEAR Protocol](https://near.org/) and game assets a
 - Bootstrap
 
 ### Game
-- Unity Game Engine
+- Unreal Engine
 
 
 ## Gettin Started
